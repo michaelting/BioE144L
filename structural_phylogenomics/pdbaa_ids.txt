@@ -1,0 +1,31 @@
+
+#=========================================================#
+# pdbaa_ids.txt						  #
+# Contains the gi IDs of sequences that will be looked up #
+# in Pfam for PDB structures and MDA. This will be used   #
+# for hmmsearch_score2.score				  #
+#=========================================================#
+
+Query
+17556096 - C. elegans
+
+Amphibian clade
+147907126 - African clawed frog
+187607398 - Western clawed frog
+
+Fish clade
+41056225 - Zebrafish
+410896920 - Fugu rubripes (pufferfish)
+
+Bird clade
+363735853 - Chicken
+326922687 - Turkey
+
+Primate clade
+410035918 - Chimpanzee
+4501993 - Human
+
+Bovid clade
+296490732 - Cattle
+440901909 - Yak
+

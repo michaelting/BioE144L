@@ -1,0 +1,58 @@
+
+#================================#
+# README for lab3revised folder. #
+# Updated 20 February 2013       #
+#================================#
+
+Note that the PSI-BLAST fasta file does include the query sequence.
+The hmmsearch file contains a different accession of the query,
+which was 100% identical to the ADAS_CAEEL query. This was verified
+by aligning the two sequences using muscle and checking the MSA using
+belvu. This indicates that the query was not lost during hmmsearch.
+
+querycheck.fasta - A file including the query sequence and another 
+sequence used to verify if the query was lost or not during hmmsearch.
+An alignment with muscle and viewing in belvu indicated that both
+sequences were fully identical.
+
+querycheck.msa - An MSA file used to verify that the query was not 
+lost during hmmsearch. view in belvu.
+
+ADHAPSynth_query.fasta - the query sequence containing the full length
+protein sequence of alkyldihydroxyacetonephosphate synthase from
+ADAS_CAEEL O45218.1, GI:8927972.
+
+psiblastresults.fasta - the results from using PSI-BLAST with 50 max 
+hits and threshold 0.001. this included one iteration of PSI-BLAST, 
+as the second iteration yielded loss of the query.
+
+hmm1.hmm - an hmm file constructed using the query with hmmbuild.
+
+hmmsearch_score1.score - the output score file from hmmsearch in 
+tabular form using option --domtblout
+
+hmmscoreparser.py - a file written by Michael Ting used to extract 
+accession numbers from a score table file received from hmmsearch 
+using option --domtblout.
+
+hmmsearch_gi_ids.txt - set of GI identification numbers extracted 
+from hmmsearch_score1.score using hmmscoreparser.py
+
+MSA1.sto - an HMM alignment file using hmm1.hmm and hmmsearch_results.fasta
+in Stockholm format (50 sequences)
+
+MSA1.fasta - a FASTA file of MSA1 converted using a converter from
+www.hiv.lanl.gov/content/sequence/FORMAT_CONVERSION/form.html
+
+MSA2.fasta - a masked alignment of MSA1.fasta. 2 sequences removed
+so this file contains 48 sequences.
+
+tree1.tree - a phylogenetic tree in Newick format constructed using
+FastTree.
+
+tree1.svg - image file of tree1 rendered using ete2.Tree in Python
+
+tree1.pdf - pdf version of tree1.svg
+
+hmm2.hmm - an hmm file constructed using MSA2.fasta
+
