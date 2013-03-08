@@ -1,6 +1,7 @@
 michaelting/BioE144L
 
-Structural Phylogenomics:
+structural_phylogenomics:
+
   Structural phylogenomic analysis of an alkyldihydroxyacetonephosphate synthase protein
   from C. elegans (GI:17556096, UniProt:ADAS_CAEEL). Analysis indicated that PDB structure
   2UUU fit most closely with the query, and was supported by conservation of domains and
