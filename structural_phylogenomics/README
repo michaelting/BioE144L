@@ -1,8 +1,7 @@
-
-#================================#
-# README for lab3revised folder. #
-# Updated 20 February 2013       #
-#================================#
+#=====================================#
+# README for structural_phylogenomics #
+# Updated 20 February 2013            #
+#=====================================#
 
 Note that the PSI-BLAST fasta file does include the query sequence.
 The hmmsearch file contains a different accession of the query,
