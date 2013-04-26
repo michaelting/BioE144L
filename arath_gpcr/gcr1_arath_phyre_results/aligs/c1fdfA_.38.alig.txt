@@ -1,0 +1,14 @@
+38 c1fdfA_ Probab=63.84   E-value=0.83  Score=21.48  Aligned_columns=20  Identities=25%
+
+Q ss_pred             HHHHHHHHHHHHHHC-CHHHH
+Q ss_conf             998668899998540-87999
+Q GCR1_ARATH_str  257 TAALMGLFNSIAYGF-NSSVR  276 (326)
+Q Consensus       257 ~~~~~~~~npiiY~~-~~~~r  276 (326)
+                      ++-.....||+||.| |++||
+T Consensus         4 faKsatvyNPiIYi~MNkQFr   24 (26)
+T c1fdfA_           4 FAKTSAVYNPVIYIMMNKQFR   24 (26)
+T ss_dssp             TTHHHHTCCTTTTTTTHHHHH
+T ss_pred             HHCCHHHHHHHHHEEECHHHC
+T ss_conf             011101210123201210430
+
+

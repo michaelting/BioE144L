@@ -1,0 +1,14 @@
+72 d1u5ta1 Probab=1.93    E-value=7.1e+02  Score=5.52  Aligned_columns=15  Identities=7%
+
+Q ss_pred             CHHHHHHHHHHHHHHC
+Q ss_conf             8799999999986505
+Q GCR1_ARATH_str  272 NSSVRRAIHERLELFL  287 (326)
+Q Consensus       272 ~~~~r~~~~~~l~~~~  287 (326)
+                      |++||..|.+ +|...
+T Consensus        38 dP~FR~~F~~-MC~~i   52 (145)
+T d1u5ta1          38 SPEFRSKFMH-MCSSI   52 (145)
+T ss_dssp             CHHHHHHHHH-HHHHH
+T ss_pred             CHHHHHHHHH-HHHHC
+T ss_conf             8899999999-99971
+
+

@@ -1,0 +1,14 @@
+87 d1ic8a2 Probab=1.65    E-value=8.5e+02  Score=5.09  Aligned_columns=21  Identities=19%
+
+Q ss_pred             CCCCCCCCCCCCHHHHHHHHH
+Q ss_conf             952025789998788899999
+Q GCR1_ARATH_str    1 MSAVLTAGGGLTAGDRSIITA   21 (326)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~i~~   21 (326)
+                      +|.+|--|.+++...+.++..
+T Consensus        58 ISq~L~~g~~Ms~~kr~alY~   78 (94)
+T d1ic8a2          58 LSQHLNKGTPMKTQKRAALYT   78 (94)
+T ss_dssp             HHHHHHSCCCCCHHHHHHHHH
+T ss_pred             HHHHHHCCCCHHHHHHHHHHH
+T ss_conf             999983788655899999999
+
+

@@ -1,0 +1,14 @@
+57 c3zc4G_ Probab=3.07    E-value=4e+02  Score=6.85  Aligned_columns=33  Identities=12%
+
+Q ss_pred             HHHHHHHHHCC----HHHHHHHHHHHHHHCCHHHCCC
+Q ss_conf             88999985408----7999999999865051110014
+Q GCR1_ARATH_str  262 GLFNSIAYGFN----SSVRRAIHERLELFLPERLYRW  294 (326)
+Q Consensus       262 ~~~npiiY~~~----~~~r~~~~~~l~~~~~~~~~~~  294 (326)
+                      |..+|++|.++    +++-.+..+.+-+++.+.+++.
+T Consensus        27 gyidpliysidpk~ikdvlsealre~~sy~ssss~rt   63 (155)
+T c3zc4G_          27 GYIDPLIYSIDPKQIKDVLSEALREFVSYTSSSSSRS   63 (155)
+T ss_dssp             GGTHHHHHCCCHHHHHHHHHHHHHHHHHHHHHCEEEE
+T ss_pred             HCCCHHHEEECHHHHHHHHHHHHHHHHHHHHCCCCEE
+T ss_conf             1212012100878999999999999997641456405
+
+

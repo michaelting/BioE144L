@@ -1,0 +1,94 @@
+24/04/2013 19:05:25 : INFO  : Run start: Wed Apr 24 19:05:25 BST 2013
+24/04/2013 19:05:25 : INFO  : Initialised job
+24/04/2013 19:05:25 : INFO  : Initialised job:
+Sequence
+>GCR1_ARATH_structure_prediction
+MSAVLTAGGGLTAGDRSIITAINTGASSLSFVGSAFIVLCYCLFKELRKFSFKLVFYLAL
+SDMLCSFFLIVGDPSKGFICYAQGYTTHFFCVASFLWTTTIAFTLHRTVVKHKTDVEDLE
+AMFHLYVWGTSLVVTVIRSFGNNHSHLGPWCWTQTGLKGKAVHFLTFYAPLWGAILYNGF
+TYFQVIRMLRNARRMAVGMSDRVDQFDNRAELKVLNRWGYYPLILIGSWAFGTINRIHDF
+IEPGHKIFWLSVLDVGTAALMGLFNSIAYGFNSSVRRAIHERLELFLPERLYRWLPSNFR
+PKNHLILHQQQQQRSEMVSLKTEDQQ
+
+24/04/2013 19:05:25 : INFO  : Checked sequence
+24/04/2013 19:05:25 : INFO  : Finding homologues with PSI-BLAST
+24/04/2013 19:05:25 : INFO  : PSI-BLAST 3 iterations
+24/04/2013 19:07:26 : INFO  : PSI-BLAST 5 iterations
+24/04/2013 19:11:28 : INFO  : Finished PSI-BLAST
+24/04/2013 19:11:28 : INFO  : Running Buildali to generate a3m file
+24/04/2013 19:23:46 : INFO  : Converting to HMM
+24/04/2013 19:23:49 : INFO  : Calibrating HMM
+24/04/2013 19:23:56 : INFO  : Searching HMM database
+24/04/2013 19:30:37 : INFO  : Finished buildali
+24/04/2013 19:30:37 : INFO  : Predicting secondary structure
+24/04/2013 19:30:37 : INFO  : Predicted secondary structure (PSI-Pred)
+24/04/2013 19:30:37 : INFO  : Predicting Disordered regions
+24/04/2013 19:30:37 : INFO  : Predicted Disorder (Disopred)
+24/04/2013 19:30:37 : INFO  : Running memsat_svm check
+24/04/2013 19:32:32 : INFO  : Running memsat_svm full
+24/04/2013 19:38:40 : INFO  : Predicted Transmembrane (memsat_svm) ID 'ea9b8e7399816da3'
+24/04/2013 19:38:40 : INFO  : Initialising fold library search
+24/04/2013 19:38:40 : INFO  : Initialised search input
+24/04/2013 19:38:40 : INFO  : Building Ensemble models
+24/04/2013 19:38:41 : INFO  : Building hh.c2rh1A_.model.1.pdb
+24/04/2013 19:38:41 : INFO  : Building hh.c3pdsA_.model.2.pdb
+24/04/2013 19:38:41 : INFO  : cpying /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c3pdsA_.model.2.pdb to /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/c3pdsA_.2.pdb
+24/04/2013 19:38:41 : INFO  : Building hh.c3emlA_.model.3.pdb
+24/04/2013 19:38:42 : INFO  : cpying /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c3emlA_.model.3.pdb to /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/c3emlA_.3.pdb
+24/04/2013 19:38:42 : INFO  : Building hh.c3rzeA_.model.4.pdb
+24/04/2013 19:38:42 : INFO  : cpying /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c3rzeA_.model.4.pdb to /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/c3rzeA_.4.pdb
+24/04/2013 19:38:42 : INFO  : Building hh.c3uonA_.model.5.pdb
+24/04/2013 19:38:43 : INFO  : cpying /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c3uonA_.model.5.pdb to /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/c3uonA_.5.pdb
+24/04/2013 19:38:43 : INFO  : Building hh.c4djhA_.model.6.pdb
+24/04/2013 19:38:43 : INFO  : cpying /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c4djhA_.model.6.pdb to /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/c4djhA_.6.pdb
+24/04/2013 19:38:43 : INFO  : Building c2rh1A_.1.pdb
+24/04/2013 19:38:44 : INFO  : Building c3pdsA_.2.pdb
+24/04/2013 19:38:44 : INFO  : Building c3emlA_.3.pdb
+24/04/2013 19:38:44 : INFO  : Building c3rzeA_.4.pdb
+24/04/2013 19:38:45 : INFO  : Building c3uonA_.5.pdb
+24/04/2013 19:38:45 : INFO  : Building c4djhA_.6.pdb
+24/04/2013 19:38:46 : INFO  : Building c3v2yA_.7.pdb
+24/04/2013 19:38:46 : INFO  : Building c3pblB_.8.pdb
+24/04/2013 19:38:47 : INFO  : Building c3oduA_.9.pdb
+24/04/2013 19:38:47 : INFO  : Building c3sn6R_.10.pdb
+24/04/2013 19:38:47 : INFO  : Building c4grvA_.11.pdb
+24/04/2013 19:38:48 : INFO  : Building c4eiyA_.12.pdb
+24/04/2013 19:38:48 : INFO  : Building c3vw7A_.13.pdb
+24/04/2013 19:38:49 : INFO  : Building c4ib4A_.14.pdb
+24/04/2013 19:38:49 : INFO  : Building c4iarA_.15.pdb
+24/04/2013 19:38:49 : INFO  : Building c2ksaA_.16.pdb
+24/04/2013 19:38:50 : INFO  : Building c2ziyA_.17.pdb
+24/04/2013 19:38:50 : INFO  : Building c3oe6A_.18.pdb
+24/04/2013 19:38:50 : INFO  : Building c4ea3B_.19.pdb
+24/04/2013 19:38:51 : INFO  : Building c3aymB_.20.pdb
+24/04/2013 19:39:07 : INFO  : Finished HH model building
+24/04/2013 19:39:07 : INFO  : html domain output complete ID 'ea9b8e7399816da3'
+24/04/2013 19:39:07 : INFO  : hhscores now
+24/04/2013 19:39:07 : INFO  : c2rh1A_ being hashed to 1
+24/04/2013 19:39:07 : INFO  : c3pdsA_ being hashed to 2
+24/04/2013 19:39:07 : INFO  : c3emlA_ being hashed to 3
+24/04/2013 19:39:07 : INFO  : c3rzeA_ being hashed to 4
+24/04/2013 19:39:07 : INFO  : c3uonA_ being hashed to 5
+24/04/2013 19:39:07 : INFO  : c4djhA_ being hashed to 6
+24/04/2013 19:39:07 : INFO  : Skipping hh.c2rh1A_.model.1.pdb
+24/04/2013 19:39:07 : INFO  : Skipping hh.c3pdsA_.model.2.pdb
+24/04/2013 19:39:07 : INFO  : Skipping hh.c3emlA_.model.3.pdb
+24/04/2013 19:39:07 : INFO  : Skipping hh.c3rzeA_.model.4.pdb
+24/04/2013 19:39:07 : INFO  : Skipping hh.c3uonA_.model.5.pdb
+24/04/2013 19:39:07 : INFO  : Skipping hh.c4djhA_.model.6.pdb
+24/04/2013 21:48:40 : WARN  : 94 percent of springs active
+
+24/04/2013 21:48:40 : WARN  : 47 percent of springs active
+
+24/04/2013 21:48:40 : WARN  : 31 percent of springs active
+
+24/04/2013 21:48:40 : WARN  : 23 percent of springs active
+
+24/04/2013 21:48:40 : WARN  : 18 percent of springs active
+
+24/04/2013 21:48:40 : INFO  : Chose Poing model 00005 as best Jury score
+24/04/2013 21:48:41 : INFO  : PoingMM finished ID 'ea9b8e7399816da3'
+24/04/2013 21:48:41 : INFO  : Running Pulchra
+24/04/2013 21:49:36 : WARN  : Poing had less coil than modeller, copying modeller model to modeller.coil.pdb
+24/04/2013 21:49:36 : INFO  : Adding sidechains to model(s)
+24/04/2013 21:49:37 : INFO  : Run end  : Wed Apr 24 21:49:37 BST 2013

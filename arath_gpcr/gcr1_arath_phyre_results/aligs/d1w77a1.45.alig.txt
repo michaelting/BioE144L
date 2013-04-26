@@ -1,0 +1,14 @@
+45 d1w77a1 Probab=3.78    E-value=3.1e+02  Score=7.45  Aligned_columns=12  Identities=42%
+
+Q ss_pred             CCCCCCCCCCCC
+Q ss_conf             952025789998
+Q GCR1_ARATH_str    1 MSAVLTAGGGLT   12 (326)
+Q Consensus         1 ~~~~~~~~~~~~   12 (326)
+                      ++++++||||.+
+T Consensus         5 ia~iilAGG~~p   16 (212)
+T d1w77a1           5 VSVILLAGGSMP   16 (212)
+T ss_dssp             EEEEEECCCCCC
+T ss_pred             EEEEEECCCCCC
+T ss_conf             899993368598
+
+

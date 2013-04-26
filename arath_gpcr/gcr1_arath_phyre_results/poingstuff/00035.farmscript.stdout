@@ -1,0 +1,278 @@
+/bmm/www/servers/phyre2/bin/poing
+PID: 6923000  Host number: 6600000
+Random seed for C++ random number generator: 16710663
+Random seed for python random number generator: 16710663
+['/bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c2rh1A_.model.1.pdb.trimmed.pdb', '/bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c3pdsA_.model.2.pdb.trimmed.pdb', '/bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c3emlA_.model.3.pdb.trimmed.pdb', '/bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c3rzeA_.model.4.pdb.trimmed.pdb', '/bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c3uonA_.model.5.pdb.trimmed.pdb', '/bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c4djhA_.model.6.pdb.trimmed.pdb']
+MSAVLTAGGGLTAGDRSIITAINTGASSLSFVGSAFIVLCYCLFKELRKFSFKLVFYLALSDMLCSFFLIVGDPSKGFICYAQGYTTHFFCVASFLWTTTIAFTLHRTVVKHKTDVEDLEAMFHLYVWGTSLVVTVIRSFGNNHSHLGPWCWTQTGLKGKAVHFLTFYAPLWGAILYNGFTYFQVIRMLRNARRMAVGMSDRVDQFDNRAELKVLNRWGYYPLILIGSWAFGTINRIHDFIEPGHKIFWLSVLDVGTAALMGLFNSIAYGFNSSVRRAIHERLELFLPERLYRWLPSNFRPKNHLILHQQQQQRSEMVSLKTEDQQ
+CCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCEECCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCCCCCCCHHHHHHHHHHHHCCCC
+Loading /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c2rh1A_.model.1.pdb.trimmed.pdb for use as fragment
+
+Num springs added: 10681
+Loading /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c3pdsA_.model.2.pdb.trimmed.pdb for use as fragment
+
+Num springs added: 10525
+Loading /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c3emlA_.model.3.pdb.trimmed.pdb for use as fragment
+
+Num springs added: 9979
+Loading /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c3rzeA_.model.4.pdb.trimmed.pdb for use as fragment
+
+Num springs added: 9436
+Loading /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c3uonA_.model.5.pdb.trimmed.pdb for use as fragment
+
+Num springs added: 9595
+Loading /bmm/www/servers/phyre2/public_html/phyre2_output/ea9b8e7399816da3/hh.c4djhA_.model.6.pdb.trimmed.pdb for use as fragment
+
+Num springs added: 10099
+Unconstrained monomers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325]
+1.15215730667
+Temperature: 0.000300
+time: 2000.0
+1.51610648632
+Temperature: 0.000300
+time: 4000.0
+1.82194006443
+Temperature: 0.000300
+time: 6000.0
+0.960657775402
+Temperature: 0.000300
+time: 8000.0
+2.0029232502
+Temperature: 0.000300
+time: 10000.0
+1.53498411179
+Temperature: 0.000300
+time: 12000.0
+8.39794254303
+Temperature: 0.000300
+time: 14000.0
+11.553563118
+Temperature: 0.000300
+time: 16000.0
+8.62062454224
+Temperature: 0.000300
+time: 18000.0
+9.92739772797
+Temperature: 0.000300
+time: 20000.0
+13.0607538223
+Temperature: 0.000300
+time: 22000.0
+12.325422287
+Temperature: 0.000300
+time: 24000.0
+10.6752185822
+Temperature: 0.000300
+time: 26000.0
+8.4074048996
+Temperature: 0.000300
+time: 28000.0
+7.59149742126
+Temperature: 0.000300
+time: 30000.0
+8.74284934998
+Temperature: 0.000300
+time: 32000.0
+10.0906591415
+Temperature: 0.000300
+time: 34000.0
+14.0044879913
+Temperature: 0.000300
+time: 36000.0
+10.2233829498
+Temperature: 0.000300
+time: 38000.0
+11.6622714996
+Temperature: 0.000300
+time: 40000.0
+12.7231960297
+Temperature: 0.000300
+time: 42000.0
+14.4639873505
+Temperature: 0.000300
+time: 44000.0
+11.4307918549
+Temperature: 0.000300
+time: 46000.0
+13.0542554855
+Temperature: 0.000300
+time: 48000.0
+10.6859731674
+Temperature: 0.000300
+time: 50000.0
+11.3095989227
+Temperature: 0.000300
+time: 52000.0
+13.8384065628
+Temperature: 0.000300
+time: 54000.0
+15.1896982193
+Temperature: 0.000300
+time: 56000.0
+14.3355541229
+Temperature: 0.000300
+time: 58000.0
+15.2671165466
+Temperature: 0.000300
+time: 60000.0
+12.4421834946
+Temperature: 0.000300
+time: 62000.0
+12.2360887527
+Temperature: 0.000300
+time: 64000.0
+9.05666637421
+Temperature: 0.000300
+time: 66000.0
+7.6773223877
+Temperature: 0.000300
+time: 68000.0
+13.6827430725
+Temperature: 0.000300
+time: 70000.0
+9.52770328522
+Temperature: 0.000300
+time: 72000.0
+7.41856145859
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot74000.pdb
+Active springs for fragments: 56805 / 60315
+time: 74000.0
+10.7512617111
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot76000.pdb
+Active springs for fragments: 56826 / 60315
+time: 76000.0
+9.96962738037
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot78000.pdb
+Active springs for fragments: 56792 / 60315
+time: 78000.0
+9.58736228943
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot80000.pdb
+Active springs for fragments: 56843 / 60315
+time: 80000.0
+8.99587631226
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot82000.pdb
+Active springs for fragments: 56805 / 60315
+time: 82000.0
+11.7030668259
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot84000.pdb
+Active springs for fragments: 56823 / 60315
+time: 84000.0
+11.4212665558
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot86000.pdb
+Active springs for fragments: 56835 / 60315
+time: 86000.0
+13.3109388351
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot88000.pdb
+Active springs for fragments: 56831 / 60315
+time: 88000.0
+12.49198246
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot90000.pdb
+Active springs for fragments: 56833 / 60315
+time: 90000.0
+14.9166669846
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot92000.pdb
+Active springs for fragments: 56815 / 60315
+time: 92000.0
+12.8863286972
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot94000.pdb
+Active springs for fragments: 56819 / 60315
+time: 94000.0
+15.0041093826
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot96000.pdb
+Active springs for fragments: 56827 / 60315
+time: 96000.0
+12.341673851
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot98000.pdb
+Active springs for fragments: 56851 / 60315
+time: 98000.0
+14.7572994232
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot100000.pdb
+Active springs for fragments: 56780 / 60315
+time: 100000.0
+16.2926902771
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot102000.pdb
+Active springs for fragments: 56795 / 60315
+time: 102000.0
+14.2022981644
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot104000.pdb
+Active springs for fragments: 56801 / 60315
+time: 104000.0
+15.4891462326
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot106000.pdb
+Active springs for fragments: 56828 / 60315
+time: 106000.0
+13.7789716721
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot108000.pdb
+Active springs for fragments: 56816 / 60315
+time: 108000.0
+13.6163921356
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot110000.pdb
+Active springs for fragments: 56841 / 60315
+time: 110000.0
+15.6669073105
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot112000.pdb
+Active springs for fragments: 56827 / 60315
+time: 112000.0
+14.5775594711
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot114000.pdb
+Active springs for fragments: 56797 / 60315
+time: 114000.0
+13.23346138
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot116000.pdb
+Active springs for fragments: 56819 / 60315
+time: 116000.0
+15.5460987091
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot118000.pdb
+Active springs for fragments: 56823 / 60315
+time: 118000.0
+15.1598062515
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot120000.pdb
+Active springs for fragments: 56814 / 60315
+time: 120000.0
+16.8643074036
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot122000.pdb
+Active springs for fragments: 56817 / 60315
+time: 122000.0
+13.4149913788
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot124000.pdb
+Active springs for fragments: 56851 / 60315
+time: 124000.0
+15.5191907883
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot126000.pdb
+Active springs for fragments: 56850 / 60315
+time: 126000.0
+15.3544769287
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot128000.pdb
+Active springs for fragments: 56829 / 60315
+time: 128000.0
+15.2798299789
+Temperature: 0.000300
+Protein written to /tmp/tmpFZHCJ_/snapshot130000.pdb
+Active springs for fragments: 56836 / 60315

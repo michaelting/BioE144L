@@ -1,0 +1,14 @@
+42 d1w55a1 Probab=3.94    E-value=3e+02  Score=7.57  Aligned_columns=12  Identities=42%
+
+Q ss_pred             CCCCCCCCCCCC
+Q ss_conf             952025789998
+Q GCR1_ARATH_str    1 MSAVLTAGGGLT   12 (326)
+Q Consensus         1 ~~~~~~~~~~~~   12 (326)
+                      |+++.+|||.++
+T Consensus         2 i~aiIlA~G~g~   13 (205)
+T d1w55a1           2 MSLIMLAAGNST   13 (205)
+T ss_dssp             EEEEEECCSCCT
+T ss_pred             EEEEEECCCCCC
+T ss_conf             489994589873
+
+

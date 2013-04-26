@@ -1,0 +1,14 @@
+97 c2kncB_ Probab=1.51    E-value=9.4e+02  Score=4.84  Aligned_columns=22  Identities=14%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHH
+Q ss_conf             9999999999999999999999
+Q GCR1_ARATH_str   18 IITAINTGASSLSFVGSAFIVL   39 (326)
+Q Consensus        18 ~i~~i~~~~~~lsiign~~vi~   39 (326)
+                      ++..+...++++-++|-+++++
+T Consensus        10 il~Ivlgvi~gIvliGll~Lli   31 (79)
+T c2kncB_          10 ILVVLLSVMGAILLIGLAALLI   31 (79)
+T ss_dssp             SHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHH
+T ss_conf             8999999999999999999999
+
+

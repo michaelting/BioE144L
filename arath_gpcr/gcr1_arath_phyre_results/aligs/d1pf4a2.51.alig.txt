@@ -1,0 +1,26 @@
+51 d1pf4a2 Probab=3.24    E-value=3.8e+02  Score=7.00  Aligned_columns=96  Identities=9%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCHHHH
+Q ss_conf             99999999999999999999986542015420355579999999999999999999978999999995027787622899
+Q GCR1_ARATH_str  172 WGAILYNGFTYFQVIRMLRNARRMAVGMSDRVDQFDNRAELKVLNRWGYYPLILIGSWAFGTINRIHDFIEPGHKIFWLS  251 (326)
+Q Consensus       172 ~i~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~k~~~~~~~~~~~f~i~w~p~~i~~i~~~~~~~~~~~~~~  251 (326)
+                      .+..++.......+.....++.++..+.........++..+..............+.+.-..+.................
+T Consensus       159 ~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~v~~g~lt~g  238 (276)
+T d1pf4a2         159 SLVLIVVAPVVAFAISFVSKRFRKISRNMQTAMGHRQQTMKLVSAQSIADPVIQMIASLALFAVLFLASVDSIRAELTPG  238 (276)
+T ss_dssp             HHHHGGGHHHHHHHTTGGGGHHHHHHHHHHHTTCCCCCHHHHHHGGGGHHHHHHHHHTTHHHHHHGGGGTSSCCCCCHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCHH
+T ss_conf             98799999999999999999999999999999401455678999999999999999999999999999999994997989
+
+
+Q ss_pred             HHHHHHHHHHHHHHHH
+Q ss_conf             9999999866889999
+Q GCR1_ARATH_str  252 VLDVGTAALMGLFNSI  267 (326)
+Q Consensus       252 ~l~~~~~~~~~~~npi  267 (326)
+                      .+.......+.+.+|+
+T Consensus       239 ~~~~~~~~~~~l~~pl  254 (276)
+T d1pf4a2         239 TFTVVFSAMFGLMRPL  254 (276)
+T ss_dssp             HHHHHHGGGGGGTTTT
+T ss_pred             HHHHHHHHHHHHHHHH
+T ss_conf             9999999999999999
+
+

@@ -1,0 +1,26 @@
+68 c3zv0A_ Probab=2.04    E-value=6.6e+02  Score=5.68  Aligned_columns=68  Identities=15%
+
+Q ss_pred             HHHHHHHHHHHHHHCCCCCCCCHHHHHHHHHHHHHHHHHHHH------------HHHHHHHHHHHHHHHCCCCHHHHHHH
+Q ss_conf             999999999999851344566168999999999999999999------------99999997788743122322578998
+Q GCR1_ARATH_str   56 FYLALSDMLCSFFLIVGDPSKGFICYAQGYTTHFFCVASFLW------------TTTIAFTLHRTVVKHKTDVEDLEAMF  123 (326)
+Q Consensus        56 ~~LaisDll~~l~~~~~~~~~~~~C~~~~~~~~~~~~~s~~~------------l~~ia~~ry~~I~~p~~~~~~~~~~~  123 (326)
+                      +.+.+.|+++|..+-.-...|...|---..+...+..-|.+=            -++++..| .++++|+.+.-......
+T Consensus       134 v~~~LidILfAy~Yd~r~t~ge~~~ES~WTI~kLSptlS~ld~~~~~~~~~~~~~~lva~~R-RaL~YPL~R~~~L~~~~  212 (325)
+T c3zv0A_         134 LYVTILSVLFSYVFEQIENEGTHTTESAWTMGKLCPQISFLDQQLKQVNSSLIKIAIITGIR-RALSYPLHRNYDLAMKA  212 (325)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTTTCCCTTHHHHHHHHCHHHHTCCSCCSCCCCHHHHHHHHHHHH-HHTTSSSCCCHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHCCCCCCCCCCCCHHHHHHHHHHHCCCCCCCCCCCHHHHHHHHHH-HHHHCCCHHHHHHHHHH
+T ss_conf             99999999999864343147888851013099865677763011233331208999998414-65414111209999999
+
+
+Q ss_pred             H
+Q ss_conf             9
+Q GCR1_ARATH_str  124 H  124 (326)
+Q Consensus       124 ~  124 (326)
+                      .
+T Consensus       213 ~  213 (325)
+T c3zv0A_         213 W  213 (325)
+T ss_dssp             H
+T ss_pred             H
+T ss_conf             9
+
+

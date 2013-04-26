@@ -1,0 +1,14 @@
+36 c2koeA_ Probab=91.17   E-value=0.061  Score=27.62  Aligned_columns=34  Identities=18%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHC-CHHHHHHHHHHH
+Q ss_conf             9999999998668899998540-879999999998
+Q GCR1_ARATH_str  250 LSVLDVGTAALMGLFNSIAYGF-NSSVRRAIHERL  283 (326)
+Q Consensus       250 ~~~l~~~~~~~~~~~npiiY~~-~~~~r~~~~~~l  283 (326)
+                      .......+..+|+++||++|++ .++.++++++.+
+T Consensus         2 vfafcs~lcl~nsmvnpiiyalrs~el~~~lr~~f   36 (40)
+T c2koeA_           2 VFAFASMLCLLNSTVNPIIYALRSKDLRHAFRSMF   36 (40)
+T ss_dssp             HHHHHHHHHHHHHHSSTTTTBTTBHHHHHHHTTTC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_conf             99999999999745538999985168999999741
+
+

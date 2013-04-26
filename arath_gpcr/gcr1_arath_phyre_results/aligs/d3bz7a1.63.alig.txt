@@ -1,0 +1,14 @@
+63 d3bz7a1 Probab=2.18    E-value=6e+02  Score=5.92  Aligned_columns=14  Identities=36%
+
+Q ss_pred             HHHHHCCCCCCCCC
+Q ss_conf             01332000345688
+Q GCR1_ARATH_str  312 QQRSEMVSLKTEDQ  325 (326)
+Q Consensus       312 ~~~~~~~s~~t~d~  325 (326)
+                      ++.+.+-+.+|.||
+T Consensus        21 setsdsftfktvdq   34 (45)
+T d3bz7a1          21 SETSDSFTFKTVDQ   34 (45)
+T ss_dssp             EECSSEEEEECCCC
+T ss_pred             HCCCCCEEEEEECC
+T ss_conf             20256425654011
+
+

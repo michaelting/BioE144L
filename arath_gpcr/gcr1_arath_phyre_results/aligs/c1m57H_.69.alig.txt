@@ -1,0 +1,26 @@
+69 c1m57H_ Probab=2.01    E-value=6.7e+02  Score=5.64  Aligned_columns=83  Identities=7%
+
+Q ss_pred             CCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHHHHHHHHH
+Q ss_conf             77531013576633057889999999999999999999999999998654201542035557999999999999999999
+Q GCR1_ARATH_str  147 LGPWCWTQTGLKGKAVHFLTFYAPLWGAILYNGFTYFQVIRMLRNARRMAVGMSDRVDQFDNRAELKVLNRWGYYPLILI  226 (326)
+Q Consensus       147 ~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~k~~~~~~~~~~~f~  226 (326)
+                      ++..................+...+.+..++.+.....+.+.+.+.+++.............-+..=...-++++..+++
+T Consensus         9 p~~~gfp~~aS~~a~~i~~l~~~~l~i~~~i~v~V~~~l~~~~~r~r~~~~~~~~~~~~n~~LEi~WtiiP~iil~~L~~   88 (260)
+T c1m57H_           9 PGGTGFQPSASPVATQIHWLDGFILVIIAAITIFVTLLILYAVWRFHEKRNKVPARFTHNSPLEIAWTIVPIVILVAIGA   88 (260)
+T ss_dssp             TTCCSCCCCCSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSTTTSCSCCCCCCCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCCCCCEEEEHHHHHHHHHHHHHHH
+T ss_conf             67305888889889999999999999999999999999999988631578877765558804752134789999999999
+
+
+Q ss_pred             HHH
+Q ss_conf             997
+Q GCR1_ARATH_str  227 GSW  229 (326)
+Q Consensus       227 i~w  229 (326)
+                      ..+
+T Consensus        89 ~s~   91 (260)
+T c1m57H_          89 FSL   91 (260)
+T ss_dssp             HHH
+T ss_pred             HHH
+T ss_conf             999
+
+

@@ -1,0 +1,14 @@
+95 c2k1aA_ Probab=1.57    E-value=9e+02  Score=4.96  Aligned_columns=30  Identities=13%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHCCCC
+Q ss_conf             999999999999999999999999503228
+Q GCR1_ARATH_str   19 ITAINTGASSLSFVGSAFIVLCYCLFKELR   48 (326)
+Q Consensus        19 i~~i~~~~~~lsiign~~vi~~~~~~k~lr   48 (326)
+                      +..++..+..+-+..-.++++-.-++||.|
+T Consensus        12 iIivsii~GlllL~~lv~~LwK~GFFKR~r   41 (42)
+T c2k1aA_          12 WVLVGVLGGLLLLTILVLAMWKVGFFKRNR   41 (42)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTTTTCCCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHCCC
+T ss_conf             989999999999999999999621421379
+
+

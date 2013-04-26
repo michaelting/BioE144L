@@ -1,0 +1,14 @@
+79 c3ee6A_ Probab=1.81    E-value=6.1e+02  Score=5.88  Aligned_columns=8  Identities=38%
+
+Q ss_pred             HHHHHHHH
+Q ss_conf             88999985
+Q GCR1_ARATH_str  262 GLFNSIAY  269 (326)
+Q Consensus       262 ~~~npiiY  269 (326)
+                      |++||.+|
+T Consensus       466 G~~np~LY  473 (529)
+T c3ee6A_         466 GFLNPRLY  473 (529)
+T ss_dssp             CSCHHHHH
+T ss_pred             CCCCHHHH
+T ss_conf             41387887
+
+

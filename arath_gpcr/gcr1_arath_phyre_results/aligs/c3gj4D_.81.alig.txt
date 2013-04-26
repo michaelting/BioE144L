@@ -1,0 +1,14 @@
+81 c3gj4D_ Probab=1.81    E-value=7.6e+02  Score=5.34  Aligned_columns=9  Identities=56%
+
+Q ss_pred             CCCCCCCCC
+Q ss_conf             003456889
+Q GCR1_ARATH_str  318 VSLKTEDQQ  326 (326)
+Q Consensus       318 ~s~~t~d~~  326 (326)
+                      ++.+-||+|
+T Consensus         9 v~nkaed~~   17 (26)
+T c3gj4D_           9 VSNKAEDSR   17 (26)
+T ss_dssp             CEECTTCSB
+T ss_pred             EECCCCCCC
+T ss_conf             605755200
+
+

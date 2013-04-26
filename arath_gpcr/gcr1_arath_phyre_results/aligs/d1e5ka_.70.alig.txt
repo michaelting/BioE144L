@@ -1,0 +1,14 @@
+70 d1e5ka_ Probab=1.96    E-value=6.9e+02  Score=5.57  Aligned_columns=12  Identities=33%
+
+Q ss_pred             CCCCCCCCCCCC
+Q ss_conf             952025789998
+Q GCR1_ARATH_str    1 MSAVLTAGGGLT   12 (326)
+Q Consensus         1 ~~~~~~~~~~~~   12 (326)
+                      |.++.+|||.++
+T Consensus         4 ~~aiILAaG~gs   15 (188)
+T d1e5ka_           4 ITGVVLAGGKAR   15 (188)
+T ss_dssp             EEEEEECCCCCS
+T ss_pred             EEEEEECCCCCC
+T ss_conf             149995488872
+
+

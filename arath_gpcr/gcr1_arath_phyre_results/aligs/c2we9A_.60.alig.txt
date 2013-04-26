@@ -1,0 +1,14 @@
+60 c2we9A_ Probab=2.71    E-value=4.7e+02  Score=6.49  Aligned_columns=12  Identities=25%
+
+Q ss_pred             CCCCCCCCCCCC
+Q ss_conf             952025789998
+Q GCR1_ARATH_str    1 MSAVLTAGGGLT   12 (326)
+Q Consensus         1 ~~~~~~~~~~~~   12 (326)
+                      |.++.+|||.++
+T Consensus         3 ~~aiIlA~G~ss   14 (190)
+T c2we9A_           3 ITGVVLAAGRSN   14 (190)
+T ss_dssp             CEEEEEECCCCT
+T ss_pred             EEEEEECCCCCC
+T ss_conf             599995588987
+
+

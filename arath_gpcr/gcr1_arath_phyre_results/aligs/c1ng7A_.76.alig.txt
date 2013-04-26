@@ -1,0 +1,14 @@
+76 c1ng7A_ Probab=1.86    E-value=7.3e+02  Score=5.43  Aligned_columns=9  Identities=22%
+
+Q ss_pred             HHHHHHHHH
+Q ss_conf             999999999
+Q GCR1_ARATH_str   59 ALSDMLCSF   67 (326)
+Q Consensus        59 aisDll~~l   67 (326)
+                      |++|++-++
+T Consensus        21 aI~DLLqsV   29 (60)
+T c1ng7A_          21 CINDLLQAV   29 (60)
+T ss_dssp             TTHHHHHHH
+T ss_pred             HHHHHHHHC
+T ss_conf             999999741
+
+

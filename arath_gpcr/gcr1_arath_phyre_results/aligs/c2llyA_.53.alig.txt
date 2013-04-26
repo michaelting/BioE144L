@@ -1,0 +1,14 @@
+53 c2llyA_ Probab=3.20    E-value=3.8e+02  Score=6.97  Aligned_columns=46  Identities=11%
+
+Q ss_pred             CCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCHH
+Q ss_conf             5789998788899999999999999999999999999503228823
+Q GCR1_ARATH_str    6 TAGGGLTAGDRSIITAINTGASSLSFVGSAFIVLCYCLFKELRKFS   51 (326)
+Q Consensus         6 ~~~~~~~~~~~~~i~~i~~~~~~lsiign~~vi~~~~~~k~lr~~~   51 (326)
+                      ++..|.+.+--+..........++|++.+.+++-...+.++.++..
+T Consensus        57 lP~~s~~~P~i~~f~~~~l~li~~sl~~tvivl~l~~~~~~~~~~~  102 (134)
+T c2llyA_          57 IPSTSSVSPSIGEYLLFTMIFVTLSIVITVFVLNVHHRSPETHTGG  102 (134)
+T ss_dssp             CSCCSSSCCSTHHHHHHHHHHHHHHHHHHHHHHHCCSSCSSCCSSC
+T ss_pred             CCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCC
+T ss_conf             8974666238999999999999999999999999840587777888
+
+

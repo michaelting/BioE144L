@@ -1,0 +1,14 @@
+49 c2ajmA_ Probab=3.31    E-value=3.7e+02  Score=7.06  Aligned_columns=15  Identities=13%
+
+Q ss_pred             HHHHCCHHHHHHHHH
+Q ss_conf             985408799999999
+Q GCR1_ARATH_str  267 IAYGFNSSVRRAIHE  281 (326)
+Q Consensus       267 iiY~~~~~~r~~~~~  281 (326)
+                      ++|++.+++.|..++
+T Consensus         8 liy~lhkqinrglkk   22 (28)
+T c2ajmA_           8 LIYSLHKQINRGLKK   22 (28)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHH
+T ss_conf             999999999875898
+
+

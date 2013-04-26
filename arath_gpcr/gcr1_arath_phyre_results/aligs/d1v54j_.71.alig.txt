@@ -1,0 +1,14 @@
+71 d1v54j_ Probab=1.95    E-value=7e+02  Score=5.55  Aligned_columns=30  Identities=7%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHCC
+Q ss_conf             999999999999999999999999995032
+Q GCR1_ARATH_str   17 SIITAINTGASSLSFVGSAFIVLCYCLFKE   46 (326)
+Q Consensus        17 ~~i~~i~~~~~~lsiign~~vi~~~~~~k~   46 (326)
+                      .++...+.+.++.++.+++..+.....-|+
+T Consensus        29 ~iLy~~Tm~L~~~G~~~s~~~ly~~~~PkK   58 (58)
+T d1v54j_          29 NILYRVTMTLCLGGTLYSLYCLGWASFPHK   58 (58)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHTSCCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHCCCC
+T ss_conf             999999999999999999999999847899
+
+

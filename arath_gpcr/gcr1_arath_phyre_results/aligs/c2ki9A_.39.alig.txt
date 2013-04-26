@@ -1,0 +1,14 @@
+39 c2ki9A_ Probab=44.57   E-value=4.2  Score=17.65  Aligned_columns=24  Identities=13%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHH
+Q ss_conf             999999999999999978999999
+Q GCR1_ARATH_str  213 KVLNRWGYYPLILIGSWAFGTINR  236 (326)
+Q Consensus       213 k~~~~~~~~~~~f~i~w~p~~i~~  236 (326)
+                      +..+.+..+..+.++||+|.....
+T Consensus         3 rlaktlglvlavllicwfp~l~lm   26 (33)
+T c2ki9A_           3 RLAKTLGLVLAVLLICWFPVLALM   26 (33)
+T ss_dssp             SSSSHHHHHHHHHTTTSSHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHH
+T ss_conf             589989999999999999999998
+
+

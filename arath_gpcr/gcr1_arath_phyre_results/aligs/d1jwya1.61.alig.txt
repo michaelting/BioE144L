@@ -1,0 +1,14 @@
+61 d1jwya1 Probab=2.38    E-value=5.5e+02  Score=6.12  Aligned_columns=35  Identities=26%
+
+Q ss_pred             CCCCCCCCCHHHCCCCCHH--HHHHHHCCCCCCCCCC
+Q ss_conf             0145222330000111100--0013320003456889
+Q GCR1_ARATH_str  292 YRWLPSNFRPKNHLILHQQ--QQQRSEMVSLKTEDQQ  326 (326)
+Q Consensus       292 ~~~~~~~~~~~~~~~~~~~--~~~~~~~~s~~t~d~~  326 (326)
+                      ++...-+-.++++-+..+.  .++.+.+-+.+|.|-|
+T Consensus         8 kryiwynpdpkerdsyecgeivsetsdsftfktvdgq   44 (44)
+T d1jwya1           8 KRYIWYNPDPKERDSYECGEIVSETSDSFTFKTVDGQ   44 (44)
+T ss_dssp             CCEEEECSSSSCTTCCEEEEEEEECSSCEEEECTTCC
+T ss_pred             CEEEEECCCCCCCCCCHHHHHHHCCCCCEEEEEECCC
+T ss_conf             2288875880202341011221025673478741379
+
+

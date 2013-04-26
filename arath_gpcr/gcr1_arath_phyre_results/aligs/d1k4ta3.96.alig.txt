@@ -1,0 +1,14 @@
+96 d1k4ta3 Probab=1.52    E-value=8.4e+02  Score=5.11  Aligned_columns=51  Identities=8%
+
+Q ss_pred             CCHHHHHHHHHHHHHHCCHHHCCCCCCCCCHHHCCCCCHHHHHHHHCCCCC
+Q ss_conf             087999999999865051110014522233000011110000133200034
+Q GCR1_ARATH_str  271 FNSSVRRAIHERLELFLPERLYRWLPSNFRPKNHLILHQQQQQRSEMVSLK  321 (326)
+Q Consensus       271 ~~~~~r~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~  321 (326)
+                      |+.+|.+.+++.+....+.....-....++....--...+..+++.+...+
+T Consensus        74 F~~NFf~df~~~l~~~~~~~i~~~~kcDFt~I~~~~~~~kE~kk~~tkEeK  124 (230)
+T d1k4ta3          74 FRKNFFKDWRKEMTNEEKNIITNLSKCDFTQMSQYFKAQTEARKQMSKEEK  124 (230)
+T ss_dssp             HHHHHHHHHHHHSCHHHHHHCCCSTTEECHHHHHHHHHHHHHHTTCCHHHH
+T ss_pred             HHHHHHHHHHHHCCHHHCCCCCCHHHCCHHHHHHHHHHHHHHHHHCCHHHH
+T ss_conf             988899999987184323100435437838999999999999972499999
+
+

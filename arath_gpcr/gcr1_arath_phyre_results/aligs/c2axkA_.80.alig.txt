@@ -1,0 +1,14 @@
+80 c2axkA_ Probab=1.81    E-value=7.6e+02  Score=5.34  Aligned_columns=6  Identities=17%
+
+Q ss_pred             HHHHHH
+Q ss_conf             999977
+Q GCR1_ARATH_str  101 IAFTLH  106 (326)
+Q Consensus       101 ia~~ry  106 (326)
+                      |++|||
+T Consensus        16 icidry   21 (37)
+T c2axkA_          16 ICIDRY   21 (37)
+T ss_dssp             HHHHHS
+T ss_pred             EEEECC
+T ss_conf             323101
+
+

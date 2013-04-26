@@ -1,0 +1,14 @@
+82 d1kxpd3 Probab=1.73    E-value=8e+02  Score=5.22  Aligned_columns=38  Identities=16%
+
+Q ss_pred             HHHHHHHHHHHHHCCHHHCCCCCCCCCHHHCCCCCHHH
+Q ss_conf             99999999986505111001452223300001111000
+Q GCR1_ARATH_str  274 SVRRAIHERLELFLPERLYRWLPSNFRPKNHLILHQQQ  311 (326)
+Q Consensus       274 ~~r~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~  311 (326)
+                      ++++..-+++....|..............++.++..-+
+T Consensus        13 E~k~rl~~~l~~~~P~~s~~~lk~mVe~rsdfAs~CC~   50 (69)
+T d1kxpd3          13 EYKKKLAERLKAKLPDATPKELAKLVNKRSDFASNCCS   50 (69)
+T ss_dssp             HHHHHHHHHHHHHCTTSCHHHHHHHHHHHHHHHHHHSS
+T ss_pred             HHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHHHHHC
+T ss_conf             99999999998538788989999999964345554212
+
+

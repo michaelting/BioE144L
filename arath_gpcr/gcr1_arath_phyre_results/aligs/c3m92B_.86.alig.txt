@@ -1,0 +1,14 @@
+86 c3m92B_ Probab=1.67    E-value=8.3e+02  Score=5.13  Aligned_columns=19  Identities=11%
+
+Q ss_pred             CCCCCCCCCHHHHHHHHHH
+Q ss_conf             0257899987888999999
+Q GCR1_ARATH_str    4 VLTAGGGLTAGDRSIITAI   22 (326)
+Q Consensus         4 ~~~~~~~~~~~~~~~i~~i   22 (326)
+                      .++.+.|+++....++..+
+T Consensus        48 yFLd~~GlPt~KstAvFNm   66 (81)
+T c3m92B_          48 YFLDEQGLPTAKSTAVFNX   66 (81)
+T ss_dssp             CCCCTTSCCCHHHHHHHHH
+T ss_pred             EEECCCCCCCHHHHHHHHH
+T ss_conf             4665799976234578767
+
+

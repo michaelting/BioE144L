@@ -1,0 +1,14 @@
+54 d1tjna_ Probab=3.11    E-value=3.6e+02  Score=7.11  Aligned_columns=15  Identities=13%
+
+Q ss_pred             CCCCCCCCCCHHHHH
+Q ss_conf             202578999878889
+Q GCR1_ARATH_str    3 AVLTAGGGLTAGDRS   17 (326)
+Q Consensus         3 ~~~~~~~~~~~~~~~   17 (326)
+                      ++++.|+||..++..
+T Consensus         4 aillv~HGSr~~~~~   18 (125)
+T d1tjna_           4 GLVIVGHGSQLNHYR   18 (125)
+T ss_dssp             EEEEEECCTTSTTHH
+T ss_pred             EEEEEECCCCCHHHH
+T ss_conf             699994499998899
+
+

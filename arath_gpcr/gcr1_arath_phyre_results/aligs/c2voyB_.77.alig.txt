@@ -1,0 +1,14 @@
+77 c2voyB_ Probab=1.86    E-value=7.4e+02  Score=5.42  Aligned_columns=20  Identities=25%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHH
+Q ss_conf             78889999999999999999
+Q GCR1_ARATH_str   13 AGDRSIITAINTGASSLSFV   32 (326)
+Q Consensus        13 ~~~~~~i~~i~~~~~~lsii   32 (326)
+                      .+-.|.+..+..+++++|++
+T Consensus        20 ~qf~d~~i~iL~~Aa~iS~~   39 (42)
+T c2voyB_          20 EQFEDLLVRILLLAACISFV   39 (42)
+T ss_dssp             HHTTSHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+T ss_conf             99510999999999999999
+
+

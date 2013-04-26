@@ -1,0 +1,14 @@
+83 d1l2wi_ Probab=1.69    E-value=8.2e+02  Score=5.15  Aligned_columns=25  Identities=20%
+
+Q ss_pred             HHCCCCCHHHHHHHHCCCCCCCCCC
+Q ss_conf             0001111000013320003456889
+Q GCR1_ARATH_str  302 KNHLILHQQQQQRSEMVSLKTEDQQ  326 (326)
+Q Consensus       302 ~~~~~~~~~~~~~~~~~s~~t~d~~  326 (326)
+                      +.+..++....+-....--+||++|
+T Consensus         6 sgrsvsqqtsdqyannlagrtespq   30 (57)
+T d1l2wi_           6 SGRSVSQQTSDQYANNLAGRTESPQ   30 (57)
+T ss_dssp             TTEECCCCCCCHHHHHHHTCCCCCC
+T ss_pred             CCCHHHHHHHHHHHHHHCCCCCCCC
+T ss_conf             2202446556777643105545866
+
+

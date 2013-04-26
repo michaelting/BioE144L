@@ -1,0 +1,62 @@
+14 c4ib4A_ Probab=100.00  E-value=1.4e-35  Score=210.52  Aligned_columns=267  Identities=17%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHHHHHHCC----------CCCCCCHHHHHHHHHHHHHH
+Q ss_conf             99999999999999999999950322882379999999999999998513----------44566168999999999999
+Q GCR1_ARATH_str   22 INTGASSLSFVGSAFIVLCYCLFKELRKFSFKLVFYLALSDMLCSFFLIV----------GDPSKGFICYAQGYTTHFFC   91 (326)
+Q Consensus        22 i~~~~~~lsiign~~vi~~~~~~k~lr~~~~~li~~LaisDll~~l~~~~----------~~~~~~~~C~~~~~~~~~~~   91 (326)
+                      +...++.++++||+++++++.+.|++|++.|.+++|||++|++.++..++          .+..+...|+...++...+.
+T Consensus        13 ~~~~i~i~gi~gN~lvi~vi~~~r~lr~~~n~~i~~LAvaDll~~~~~~p~~i~~~~~~~~~~~~~~~c~~~~~~~~~~~   92 (375)
+T c4ib4A_          13 LILMVIIPTIGGNTLVILAVSLEKKLQYATNYFLMSLAVADLLVGLFVMPIALLTIMFEAMWPLPLVLCPAWLFLDVLFS   92 (375)
+T ss_dssp             HHHHTHHHHHHHHHHHHHHHHHCGGGCSHHHHHHHHHHHHHHHHHHHTHHHHTHHHHSCSSCCSCTTHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHH
+T ss_conf             99999999999999987887627777887689999999999999999999999999726972024478865544557899
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHCCC----CHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCCCCCCCCCHHHHHHH
+Q ss_conf             999999999999977887431223----2257899899976788898877876134666775310135766330578899
+Q GCR1_ARATH_str   92 VASFLWTTTIAFTLHRTVVKHKTD----VEDLEAMFHLYVWGTSLVVTVIRSFGNNHSHLGPWCWTQTGLKGKAVHFLTF  167 (326)
+Q Consensus        92 ~~s~~~l~~ia~~ry~~I~~p~~~----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  167 (326)
+                      .++...+++++.|||..+.+|.++    .++.........|........++........+....+...............
+T Consensus        93 ~~s~~~~~~~~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  172 (375)
+T c4ib4A_          93 TASIWHLCAISVDRYIAIKKPIQANQYNSRATAFIKITVVWLISIGIAIPVPIKGIETNPNNITCVLTKERFGDFMLFGS  172 (375)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHCCSCCCHHHHHHHHHHHHHHHHHHHHHHHTHHHHHCCCCCCSCCCCSCCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHCCCCHHCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHEEECCCCCEEEEECCCCCCCHHHHHH
+T ss_conf             99999887766555543100000002344321010003899999999887876225136775045532577762243446
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH--------------------------------------------------
+Q ss_conf             999999999999999999999999986542--------------------------------------------------
+Q GCR1_ARATH_str  168 YAPLWGAILYNGFTYFQVIRMLRNARRMAV--------------------------------------------------  197 (326)
+Q Consensus       168 ~~~~~i~~~~~~~~~~~i~~~~~~~~~~~~--------------------------------------------------  197 (326)
+                      ...+..+..+...+|..+...+++..++..                                                  
+T Consensus       173 ~~~~~~~~~~~~~~y~~i~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  252 (375)
+T c4ib4A_         173 LAAFFTPLAIMIVTYFLTIHALQKKAADLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKKDFRHGFDILVG  252 (375)
+T ss_dssp             HHHTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCSHHHHHHHHHHHHHHTHHHHCCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+T ss_conf             67889999999999999999999844333320234566554322345555556555556655566554456666521123
+
+
+Q ss_pred             ----------------------------HCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCC---CC
+Q ss_conf             ----------------------------01542035557999999999999999999997899999999502778---76
+Q GCR1_ARATH_str  198 ----------------------------GMSDRVDQFDNRAELKVLNRWGYYPLILIGSWAFGTINRIHDFIEPG---HK  246 (326)
+Q Consensus       198 ----------------------------~~~~~~~~~~~~~~~k~~~~~~~~~~~f~i~w~p~~i~~i~~~~~~~---~~  246 (326)
+                                                  +.......+..++++|..++++.++++|++||+|..+..++...++.   ..
+T Consensus       253 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~iv~~F~icw~P~~i~~~~~~~~~~~~~~~  332 (375)
+T c4ib4A_         253 QIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLQTISNEQRASKVLGIVFFLFLLMWCPFFITNITLVLCDSCNQTT  332 (375)
+T ss_dssp             HHHHHHHHHHHTCHHHHHHHHHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCSSSCHHH
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCH
+T ss_conf             56554212466654433210001234544210245665422477899999999999998668999999998437777662
+
+
+Q ss_pred             CHHHHHHHHHHHHHHHHHHHHHHH-CCHHHHHHHHHHHHHHCC
+Q ss_conf             228999999999866889999854-087999999999865051
+Q GCR1_ARATH_str  247 IFWLSVLDVGTAALMGLFNSIAYG-FNSSVRRAIHERLELFLP  288 (326)
+Q Consensus       247 ~~~~~~l~~~~~~~~~~~npiiY~-~~~~~r~~~~~~l~~~~~  288 (326)
+                      ......+...+..+|+++||++|+ +|++||+++++.+++..|
+T Consensus       333 ~~~~~~~~~~L~~~ns~iNPiiY~~~~~~fR~~~~~ll~Cr~R  375 (375)
+T c4ib4A_         333 LQMLLEIFVWIGYVSSGVNPLVYTLFNKTFRDAFGRYITCNYR  375 (375)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTTSHHHHHHHHHHTTTCCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHCCCCCC
+T ss_conf             7999999999999986586799980198999999985088899
+
+

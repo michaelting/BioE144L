@@ -1,0 +1,15 @@
+100 c3tsiB_ Probab=1.47    E-value=9.7e+02  Score=4.77  Aligned_columns=17  Identities=18%
+
+Q ss_pred             HHHHHHHHHHHHHHHHH
+Q ss_conf             99999986688999985
+Q GCR1_ARATH_str  253 LDVGTAALMGLFNSIAY  269 (326)
+Q Consensus       253 l~~~~~~~~~~~npiiY  269 (326)
+                      +...++..-+..|.++|
+T Consensus         6 itdllnnilsvanqiiy   22 (48)
+T c3tsiB_           6 ITDLLNNILSVANQIIY   22 (48)
+T ss_dssp             HHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHH
+T ss_conf             89999999998787776
+
+
+Done!

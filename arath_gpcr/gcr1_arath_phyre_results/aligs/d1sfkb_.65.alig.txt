@@ -1,0 +1,14 @@
+65 d1sfkb_ Probab=2.14    E-value=6.2e+02  Score=5.82  Aligned_columns=14  Identities=14%
+
+Q ss_pred             HHHHHHHHHHHHHH
+Q ss_conf             99999999977887
+Q GCR1_ARATH_str   96 LWTTTIAFTLHRTV  109 (326)
+Q Consensus        96 ~~l~~ia~~ry~~I  109 (326)
+                      +.+.++++-|+.+|
+T Consensus         6 ~vlAllaf~RFlai   19 (57)
+T d1sfkb_           6 FVLALLAFFRFTAI   19 (57)
+T ss_dssp             HHHHHHHHHHHTTC
+T ss_pred             HHHHHHHHHHHHCC
+T ss_conf             99999999999548
+
+

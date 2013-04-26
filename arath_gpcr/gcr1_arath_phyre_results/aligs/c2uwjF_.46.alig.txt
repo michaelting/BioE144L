@@ -1,0 +1,14 @@
+46 c2uwjF_ Probab=3.61    E-value=3.3e+02  Score=7.31  Aligned_columns=19  Identities=37%
+
+Q ss_pred             HHHHHCCHHHHHHHHHHHH
+Q ss_conf             9985408799999999986
+Q GCR1_ARATH_str  266 SIAYGFNSSVRRAIHERLE  284 (326)
+Q Consensus       266 piiY~~~~~~r~~~~~~l~  284 (326)
+                      .++|..++.+-|+.++.+.
+T Consensus         8 sviyni~sti~r~~~dlmq   26 (32)
+T c2uwjF_           8 SVIYNINSTVTRALRDLMQ   26 (32)
+T ss_dssp             GGGTTCCHHHHHHHHHHHH
+T ss_pred             EEEEECHHHHHHHHHHHHH
+T ss_conf             8888302679999999999
+
+

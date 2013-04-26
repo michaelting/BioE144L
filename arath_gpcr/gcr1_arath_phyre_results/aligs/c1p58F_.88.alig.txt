@@ -1,0 +1,14 @@
+88 c1p58F_ Probab=1.64    E-value=8.5e+02  Score=5.07  Aligned_columns=19  Identities=26%
+
+Q ss_pred             CCCHHHHHHHHHHHHHHHH
+Q ss_conf             9987888999999999999
+Q GCR1_ARATH_str   10 GLTAGDRSIITAINTGASS   28 (326)
+Q Consensus        10 ~~~~~~~~~i~~i~~~~~~   28 (326)
+                      |++.+|+-++......++.
+T Consensus        34 Gt~~~Qrvii~iLLllV~P   52 (55)
+T c1p58F_          34 GTTHFQRVLIFILLTAIAP   52 (55)
+T ss_dssp             TSSSTTHHHHHHHHHHHHH
+T ss_pred             CCCHHHHHHHHHHHHHHHH
+T ss_conf             0504679999999999720
+
+

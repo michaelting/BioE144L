@@ -1,0 +1,14 @@
+94 c1t1eA_ Probab=1.58    E-value=6.6e+02  Score=5.70  Aligned_columns=13  Identities=23%
+
+Q ss_pred             HHHHHHHHHCCHH
+Q ss_conf             8899998540879
+Q GCR1_ARATH_str  262 GLFNSIAYGFNSS  274 (326)
+Q Consensus       262 ~~~npiiY~~~~~  274 (326)
+                      |++||.+|-+.++
+T Consensus       477 G~lnp~Ly~~~~~  489 (534)
+T c1t1eA_         477 GYLNPTLYQLPPE  489 (534)
+T ss_dssp             CCCHHHHTTSCGG
+T ss_pred             CCCCHHHHHHCCC
+T ss_conf             7459888762300
+
+

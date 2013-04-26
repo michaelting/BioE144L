@@ -1,0 +1,17 @@
+INFO  : Reading PDB list file 'poing.list'
+INFO  : Successfully read 0 PDBsINFO  : Successfully read 4 / 4 PDBs from list file 'poing.list'
+INFO  : Successfully read 4 Chain structures
+INFO  : Processed 0 of 6 MAXSUBs
+INFO  : CPU time = 0.24 seconds
+INFO  : ======================================
+INFO  : 3Djury (Threshold: >    20 pairs @ > 0.200)
+INFO  : ======================================
+INFO  : Rank     Model    Pairs       File
+INFO  :     1 :        1     1191       00005.pdb
+INFO  :     2 :        4     1186       00038.pdb
+INFO  :     3 :        2     1172       00010.pdb
+INFO  :     4 :        3     1171       00035.pdb
+INFO  : ======================================
+INFO  : Nearest Neighbour clustering
+INFO  : ======================================
+INFO  : No clusters assigned at upper threshold 0.800

@@ -1,0 +1,14 @@
+66 c3e8gB_ Probab=2.09    E-value=6.4e+02  Score=5.75  Aligned_columns=55  Identities=11%
+
+Q ss_pred             CCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCHHHHHH
+Q ss_conf             9520257899987888999999999999999999999999995032288237999
+Q GCR1_ARATH_str    1 MSAVLTAGGGLTAGDRSIITAINTGASSLSFVGSAFIVLCYCLFKELRKFSFKLV   55 (326)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~i~~i~~~~~~lsiign~~vi~~~~~~k~lr~~~~~li   55 (326)
+                      +.++.+.|-|--.+..+.-..+......+++..-...+-.+...-+.++..+..+
+T Consensus        40 ~~T~tTiGyGD~~p~t~~~r~~~~~~~l~Gi~~~~~~i~~i~~~~~~~~~~~~~~   94 (96)
+T c3e8gB_          40 VVTLTTVGDGNFSPQTDFGKIFTILYIFIGIGLVFGFIHKLAVNVQLPSILSNLV   94 (96)
+T ss_dssp             HHHHTTCCCSSCCCCSHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHHHHHHHHHS
+T ss_pred             HHHHHHCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_conf             9999950765423468436999999999999999999999999999999999541
+
+

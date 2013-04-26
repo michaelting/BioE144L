@@ -1,0 +1,14 @@
+84 d1ywya1 Probab=1.68    E-value=6.3e+02  Score=5.78  Aligned_columns=18  Identities=17%
+
+Q ss_pred             CCCCCCCCCCCCHHHHHH
+Q ss_conf             952025789998788899
+Q GCR1_ARATH_str    1 MSAVLTAGGGLTAGDRSI   18 (326)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~   18 (326)
+                      ||++.+.|.....++-.+
+T Consensus        38 MS~~~i~G~ri~ItEaEA   55 (74)
+T d1ywya1          38 LSVLYIDGKRLHISEEDA   55 (74)
+T ss_dssp             EEEEEETTCCEECCHHHH
+T ss_pred             EEEEEECCEEEECCHHHH
+T ss_conf             456964463877196550
+
+

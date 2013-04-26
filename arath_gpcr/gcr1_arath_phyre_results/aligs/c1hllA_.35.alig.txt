@@ -1,0 +1,14 @@
+35 c1hllA_ Probab=96.93   E-value=0.00044  Score=39.29  Aligned_columns=28  Identities=7%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHCCCCHHHH
+Q ss_conf             9999999999997788743122322578
+Q GCR1_ARATH_str   93 ASFLWTTTIAFTLHRTVVKHKTDVEDLE  120 (326)
+Q Consensus        93 ~s~~~l~~ia~~ry~~I~~p~~~~~~~~  120 (326)
+                      +|++.+++|++|||++|.+|++|..+++
+T Consensus         2 ASIlnLc~Is~DRy~aIt~Pl~Y~~~~T   29 (32)
+T c1hllA_           2 SSIVHLCAISLDRYWSITQAIEYNLKRT   29 (32)
+T ss_dssp             HHHHHHHHHHTHHHHHHHHHHGGGSSCC
+T ss_pred             HHHHHHHHHHHHHHHHHHCHHHHCCCCC
+T ss_conf             3589999999996899735633230107
+
+

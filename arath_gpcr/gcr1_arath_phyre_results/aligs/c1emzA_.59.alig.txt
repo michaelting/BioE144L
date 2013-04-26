@@ -1,0 +1,14 @@
+59 c1emzA_ Probab=2.80    E-value=4.5e+02  Score=6.58  Aligned_columns=14  Identities=29%
+
+Q ss_pred             HHHHHHHHHHHHHH
+Q ss_conf             99999999999999
+Q GCR1_ARATH_str   21 AINTGASSLSFVGS   34 (326)
+Q Consensus        21 ~i~~~~~~lsiign   34 (326)
+                      ++...++-+|+.||
+T Consensus         5 gvlagiayfsm~gn   18 (26)
+T c1emzA_           5 GVLAGIAYFSMVGN   18 (26)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHCC
+T ss_conf             57788999986301
+
+

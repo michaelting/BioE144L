@@ -1,0 +1,14 @@
+40 d1fftb2 Probab=21.53   E-value=42  Score=12.19  Aligned_columns=48  Identities=19%
+
+Q ss_pred             CCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCC
+Q ss_conf             520257899987888999999999999999999999999995032288
+Q GCR1_ARATH_str    2 SAVLTAGGGLTAGDRSIITAINTGASSLSFVGSAFIVLCYCLFKELRK   49 (326)
+Q Consensus         2 ~~~~~~~~~~~~~~~~~i~~i~~~~~~lsiign~~vi~~~~~~k~lr~   49 (326)
+                      |++|-+-|..-..+.+........+..+.++-..++++..+++|+-++
+T Consensus         1 ~~~l~P~gp~A~~~~~L~~~~~~i~~~i~i~V~~ll~~~~~ryR~~~~   48 (91)
+T d1fftb2           1 SALLDPKGQIGLEQRSLILTAFGLMLIVVIPAILMAVGFAWKYRASNK   48 (91)
+T ss_dssp             CCCSSCCSCCHHHHHHHHHHHHHHTTTTTTHHHHHHHTTTTTTTTSTT
+T ss_pred             CCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCC
+T ss_conf             977789984789999999999999999999999999999999830236
+
+
