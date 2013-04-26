@@ -12,3 +12,9 @@ structural_phylogenomics:
     - HMM scoring files
     - MSA files produced using MAFFT and visualized in Belvu
     - Phylogenetic trees constructed using FastTree and visualized with ETE2 in Python
+
+arath_gpcr:
+  
+  Bioinformatics analyses for a putative GPCR in Arabidopsis thaliana Uniprot:O04714 (GCR1_ARATH).
+  Analyses were performed to find evidence for or against the presence of a G protein-coupled
+  receptor in Arabidopsis.
