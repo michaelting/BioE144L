@@ -1,0 +1,1 @@
+EasyTrace6.0.1.pl -d /home1/aw11/customdb/custom -e 0.05 -f 500 -u 500 -v 1e-250 -w 0.005 -x 30 -y 95 -z 0.5 -T 0.8 -U 0.9 -a blosum62 -o query_1m9bA.pdb 1m9bA

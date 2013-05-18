@@ -1,0 +1,14 @@
+
+  This directory (1m9b_report) should contain the following files:
+               1m9b_report.pdf  --  the report in pdf format                                                                            
+             1m9bA.complex.pdb  --  coordinates of 1m9bA with all of its interacting partners                                           
+                    1m9bA.etvx  --  ET viewer input file for 1m9bA                                                                      
+  1m9bA.cluster_report.summary  --  Cluster report summary for 1m9bA                                                                    
+                   1m9bA.ranks  --  Ranks file in sequence order for 1m9bA                                                              
+                1m9bA.clusters  --  Cluster descriptions for 1m9bA                                                                      
+                     1m9bA.msf  --  the multiple sequence alignment used for the chain 1m9bA                                            
+                   1m9bA.descr  --  description of sequences used in 1m9bA msf                                                          
+            1m9bA.ranks_sorted  --   full listing of residues and their ranking for 1m9bA                                               
+       1m9bA.1m9bIBG220.if.pml  --  Pymol script                                                                                        
+                   1m9bA.cbcvg  --  used by other 1m9bA -- related pymol scripts                                                        
+           1m9bA.1m9bA1.if.pml  --  Pymol script                                                                                        

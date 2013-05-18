@@ -1,0 +1,635 @@
+
+*********************************
+Running Evolutionary Trace on 1m9bA:
+Current directory:  /scratch/aw11/1m9bA
+Current date and time:  Sat Jan 14 09:26:54 CST 2012
+Current user:  aw11
+Platform:  Linux
+Machine info:  Linux n002.cluster 2.6.18-194.32.1.el5 #1 SMP Wed Jan 5 17:52:25 EST 2011 x86_64 x86_64 x86_64 GNU/Linux
+Command used to run Trace analysis:
+EasyTrace6.0.1.pl -d /home1/aw11/customdb/custom -e 0.05 -f 500 -u 500 -v 1e-250 -w 0.005 -x 30 -y 95 -z 0.5 -T 0.8 -U 0.9 -a blosum62 -o query_1m9bA.pdb 1m9bA
+
+
+BLAST database searched:  /home1/aw11/customdb/custom
+BLAST e-value:  0.05
+Maximum number of BLAST sequences:  500
+Maximum number of subsequences to extract from BLAST results:  500
+Minimum subsequence e-value:  1e-250
+Maximum subsequence e-value:  0.005
+Minimum subsequence percent identity to query:  30
+Maximum subsequence percent identity to query:  95
+Minimum fractional length of BLAST HSP (compared to query):  0.5
+Alignment-generation method:  clustalw
+Identical sequences will be removed
+Short sequences will be removed (if length is less than 0.8 * length of query)
+Fragments will be removed (if length is less than 0.9 * length of query) and sequences re-aligned
+Tree-generation method:  UPGMA using matrix:  blosum62
+Structure Trace results are mapped onto:  query_1m9bA.pdb  (derived from custom structure in query_1m9bA.pdb)
+Name of sequence to map onto structure:  query_1m9bA
+An ETViewer project file will be created in 1m9bA.etvx.
+
+Extracting chain/sequence from PDB file...
+	--Renaming query_1m9bA.pdb to 1m9bA.pdb--
+	command:  cp query_1m9bA.pdb 1m9bA.pdb
+	command:  /home1/aw11/udEasyTrace/ExtractSeqFromPDB3.pl 1m9bA.pdb query_1m9bA.pdb query_1m9bA.fasta -b -f -c A -d
+	output:  
+
+BLAST search...
+	command:  /home1/aw11/blast/blast-2.2.24/bin/blastall  -p blastp -d /home1/aw11/customdb/custom -I T -i query_1m9bA.fasta -o 1m9bA.blast -e 0.05 -v 500 -b 500
+	output:  
+
+Selecting and retrieving homologs...
+
+*********************************
+
+	command:  /home1/aw11/udEasyTrace/SelectInputToTrace9.4.pl -cutoff=0.5 -maxseqs=500 -minevalue=1e-250 -maxevalue=0.005 -minpid=30 -maxpid=95 -database=/home1/aw11/customdb/custom 1m9bA.blast 1m9bA.input
+	output:  Found
+
+
+Requesting sequence 20385949...	Extracting... 20385949-1 (e-value 1e-116, %id 92, %length 0.99)
+Requesting sequence 3002504...	Extracting... 3002504-1 (e-value 1e-115, %id 92, %length 0.99)
+Requesting sequence 3002516...	Extracting... 3002516-1 (e-value 1e-115, %id 92, %length 0.99)
+Requesting sequence 3002508...	Extracting... 3002508-1 (e-value 1e-115, %id 92, %length 0.99)
+Requesting sequence 3002512...	Extracting... 3002512-1 (e-value 1e-115, %id 92, %length 0.99)
+Requesting sequence 3002496...	Extracting... 3002496-1 (e-value 1e-114, %id 92, %length 0.99)
+Requesting sequence 3002500...	Extracting... 3002500-1 (e-value 1e-114, %id 92, %length 0.99)
+Requesting sequence 115600335...	Extracting... 115600335-1 (e-value 1e-113, %id 92, %length 0.99)
+Requesting sequence 1814368...	Extracting... 1814368-1 (e-value 1e-113, %id 92, %length 0.99)
+Requesting sequence 129278838...	Extracting... 129278838-1 (e-value 1e-113, %id 92, %length 0.99)
+Requesting sequence 115600316...	Extracting... 115600316-1 (e-value 1e-113, %id 92, %length 0.99)
+Requesting sequence 1814366...	Extracting... 1814366-1 (e-value 1e-113, %id 92, %length 0.99)
+Requesting sequence 38155842...	Extracting... 38155842-1 (e-value 1e-113, %id 92, %length 0.99)
+Requesting sequence 3983117...	Extracting... 3983117-1 (e-value 1e-113, %id 92, %length 0.99)
+Requesting sequence 15216974...	Extracting... 15216974-1 (e-value 1e-113, %id 92, %length 0.98)
+Requesting sequence 1699069...	Extracting... 1699069-1 (e-value 1e-113, %id 92, %length 0.99)
+Requesting sequence 595730...	Extracting... 595730-1 (e-value 1e-113, %id 92, %length 0.99)
+Requesting sequence 1850359...	Extracting... 1850359-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 595718...	Extracting... 595718-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 1527195...	Extracting... 1527195-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 1699065...	Extracting... 1699065-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 595710...	Extracting... 595710-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 1699061...	Extracting... 1699061-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 208305...	Extracting... 208305-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 595726...	Extracting... 595726-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 595722...	Extracting... 595722-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 3184404...	Extracting... 3184404-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 595714...	Extracting... 595714-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 23821204...	Extracting... 23821204-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 62530423...	Extracting... 62530423-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 595734...	Extracting... 595734-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 1850357...	Extracting... 1850357-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 56406601...	Extracting... 56406601-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 595742...	Extracting... 595742-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 595738...	Extracting... 595738-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 595706...	Extracting... 595706-1 (e-value 1e-112, %id 92, %length 0.99)
+Requesting sequence 1850361...	Extracting... 1850361-1 (e-value 1e-111, %id 92, %length 0.99)
+Requesting sequence 208443...	Extracting... 208443-1 (e-value 1e-108, %id 92, %length 0.96)
+Requesting sequence 1526622...	Extracting... 1526622-1 (e-value 1e-100, %id 83, %length 0.99)
+Requesting sequence 544442...	Extracting... 544442-1 (e-value 2e-94, %id 76, %length 0.99)
+Requesting sequence 121698...	Extracting... 121698-1 (e-value 1e-88, %id 74, %length 0.99)
+Requesting sequence 161007...	Extracting... 161007-1 (e-value 8e-86, %id 75, %length 0.96)
+Requesting sequence 116266310...	Extracting... 116266310-1 (e-value 3e-66, %id 88, %length 0.65)(116266310-2 ignored - region of homology less than 0.5 * query length [e-value 6e-38, %id 100, %length 0.33])
+Requesting sequence 3913799...	Extracting... 3913799-1 (e-value 6e-63, %id 54, %length 0.99)
+Requesting sequence 4574306...	Extracting... 4574306-1 (e-value 1e-60, %id 52, %length 0.98)
+Requesting sequence 232197...	Extracting... 232197-1 (e-value 5e-59, %id 52, %length 0.98)
+Requesting sequence 3915724...	Extracting... 3915724-1 (e-value 6e-59, %id 52, %length 0.99)
+Requesting sequence 3915723...	Extracting... 3915723-1 (e-value 8e-59, %id 51, %length 0.99)
+Requesting sequence 384151...	Extracting... 384151-1 (e-value 4e-57, %id 51, %length 0.99)
+Requesting sequence 159060...	Extracting... 159060-1 (e-value 6e-57, %id 51, %length 0.96)
+Requesting sequence 159058...	Extracting... 159058-1 (e-value 6e-56, %id 51, %length 0.95)
+Requesting sequence 384152...	Extracting... 384152-1 (e-value 8e-56, %id 51, %length 0.98)
+Requesting sequence 34539115...	Extracting... 34539115-1 (e-value 8e-46, %id 45, %length 0.97)
+Requesting sequence 34539117...	Extracting... 34539117-1 (e-value 3e-44, %id 44, %length 0.97)
+Requesting sequence 4322274...	Extracting... 4322274-1 (e-value 1e-43, %id 44, %length 0.97)
+Requesting sequence 147905959...	Extracting... 147905959-1 (e-value 4e-42, %id 42, %length 0.97)
+Requesting sequence 148669993...	Extracting... 148669993-1 (e-value 5e-42, %id 40, %length 0.97)
+Requesting sequence 28461273...	Extracting... 28461273-1 (e-value 5e-42, %id 42, %length 0.97)
+Requesting sequence 16332351...	Extracting... 16332351-1 (e-value 5e-42, %id 42, %length 0.97)
+Requesting sequence 28076911...	Extracting... 28076911-1 (e-value 5e-42, %id 40, %length 0.97)
+Requesting sequence 148744125...	Extracting... 148744125-1 (e-value 8e-42, %id 41, %length 0.97)
+Requesting sequence 60418504...	Extracting... 60418504-1 (e-value 8e-42, %id 40, %length 0.97)
+Requesting sequence 126311551...	Extracting... 126311551-1 (e-value 4e-41, %id 41, %length 0.97)
+Requesting sequence 66730313...	Extracting... 66730313-1 (e-value 7e-41, %id 39, %length 0.97)
+Requesting sequence 139949210...	Extracting... 139949210-1 (e-value 9e-41, %id 41, %length 0.97)
+Requesting sequence 118403788...	Extracting... 118403788-1 (e-value 1e-40, %id 40, %length 0.97)
+Requesting sequence 148669994...	Extracting... 148669994-1 (e-value 3e-40, %id 45, %length 0.79)
+Requesting sequence 114558266...	Extracting... 114558266-1 (e-value 4e-40, %id 40, %length 0.97)
+Requesting sequence 238018082...	Extracting... 238018082-1 (e-value 4e-40, %id 45, %length 0.79)
+Requesting sequence 21591409...	Extracting... 21591409-1 (e-value 5e-40, %id 40, %length 0.97)
+Requesting sequence 89266801...	Extracting... 89266801-1 (e-value 7e-40, %id 41, %length 0.96)
+Requesting sequence 52345832...	Extracting... 52345832-1 (e-value 8e-40, %id 41, %length 0.96)
+Requesting sequence 197102749...	Extracting... 197102749-1 (e-value 2e-39, %id 40, %length 0.97)
+Requesting sequence 148669991...	Extracting... 148669991-1 (e-value 3e-39, %id 40, %length 0.93)
+Requesting sequence 109013277...	Extracting... 109013277-1 (e-value 3e-39, %id 39, %length 0.97)
+Requesting sequence 148669990...	Extracting... 148669990-1 (e-value 4e-39, %id 41, %length 0.93)
+Requesting sequence 126722906...	Extracting... 126722906-1 (e-value 5e-39, %id 40, %length 0.97)
+Requesting sequence 306817...	Extracting... 306817-1 (e-value 5e-39, %id 39, %length 0.97)
+Requesting sequence 6754084...	Extracting... 6754084-1 (e-value 5e-39, %id 40, %length 0.93)
+Requesting sequence 51338739...	Extracting... 51338739-1 (e-value 7e-39, %id 39, %length 0.97)
+Requesting sequence 31935...	Extracting... 31935-1 (e-value 9e-39, %id 39, %length 0.97)
+Requesting sequence 1004227...	Extracting... 1004227-1 (e-value 9e-39, %id 38, %length 0.97)
+Requesting sequence 2316076...	Extracting... 2316076-1 (e-value 1e-38, %id 38, %length 0.97)
+Requesting sequence 50400685...	Extracting... 50400685-1 (e-value 1e-38, %id 39, %length 0.97)
+Requesting sequence 13516447...	Extracting... 13516447-1 (e-value 1e-38, %id 40, %length 0.97)
+Requesting sequence 118131985...	Extracting... 118131985-1 (e-value 1e-38, %id 38, %length 0.97)
+Requesting sequence 54696756...	Extracting... 54696756-1 (e-value 1e-38, %id 40, %length 0.97)
+Requesting sequence 99109629...	Extracting... 99109629-1 (e-value 2e-38, %id 38, %length 0.95)
+Requesting sequence 109013301...	Extracting... 109013301-1 (e-value 2e-38, %id 40, %length 0.97)
+Requesting sequence 8393502...	Extracting... 8393502-1 (e-value 2e-38, %id 39, %length 0.93)
+Requesting sequence 204501...	Extracting... 204501-1 (e-value 2e-38, %id 40, %length 0.92)
+Requesting sequence 4504175...	Extracting... 4504175-1 (e-value 4e-38, %id 39, %length 0.97)
+Requesting sequence 149025664...	Extracting... 149025664-1 (e-value 5e-38, %id 39, %length 0.93)
+Requesting sequence 121722...	Extracting... 121722-1 (e-value 5e-38, %id 41, %length 0.91)
+Requesting sequence 113680506...	Extracting... 113680506-1 (e-value 7e-38, %id 39, %length 0.97)
+Requesting sequence 290491136...	Extracting... 290491136-1 (e-value 9e-38, %id 39, %length 0.97)
+Requesting sequence 114205477...	Extracting... 114205477-1 (e-value 9e-38, %id 39, %length 0.97)
+Requesting sequence 73959317...	Extracting... 73959317-1 (e-value 1e-37, %id 39, %length 0.93)
+Requesting sequence 204503...	Extracting... 204503-1 (e-value 2e-37, %id 38, %length 0.93)
+Requesting sequence 232206...	Extracting... 232206-1 (e-value 2e-37, %id 39, %length 0.91)
+Requesting sequence 297279504...	Extracting... 297279504-1 (e-value 2e-37, %id 39, %length 0.97)
+Requesting sequence 6680121...	Extracting... 6680121-1 (e-value 2e-37, %id 38, %length 0.93)
+Requesting sequence 37748321...	Extracting... 37748321-1 (e-value 3e-37, %id 39, %length 0.97)
+Requesting sequence 399829...	Extracting... 399829-1 (e-value 3e-37, %id 38, %length 0.93)
+Requesting sequence 468260...	Extracting... 468260-1 (e-value 3e-37, %id 39, %length 0.97)
+Requesting sequence 148669988...	Extracting... 148669988-1 (e-value 3e-37, %id 38, %length 0.93)
+Requesting sequence 113679874...	Extracting... 113679874-1 (e-value 4e-37, %id 37, %length 0.98)
+Requesting sequence 23065563...	Extracting... 23065563-1 (e-value 4e-37, %id 39, %length 0.97)
+Requesting sequence 13592152...	Extracting... 13592152-1 (e-value 6e-37, %id 37, %length 0.97)
+Requesting sequence 74193997...	Extracting... 74193997-1 (e-value 6e-37, %id 36, %length 0.98)
+Requesting sequence 297279506...	Extracting... 297279506-1 (e-value 7e-37, %id 39, %length 0.97)
+Requesting sequence 74196865...	Extracting... 74196865-1 (e-value 7e-37, %id 37, %length 0.98)
+Requesting sequence 122692371...	Extracting... 122692371-1 (e-value 9e-37, %id 36, %length 0.97)
+Requesting sequence 157822007...	Extracting... 157822007-1 (e-value 9e-37, %id 38, %length 0.97)
+Requesting sequence 149025659...	Extracting... 149025659-1 (e-value 1e-36, %id 38, %length 0.97)
+Requesting sequence 10120486...	Extracting... 10120486-1 (e-value 2e-36, %id 38, %length 0.93)
+Requesting sequence 114559064...	Extracting... 114559064-1 (e-value 4e-36, %id 37, %length 0.97)
+Requesting sequence 55587744...	Extracting... 55587744-1 (e-value 4e-36, %id 38, %length 0.97)
+Requesting sequence 28933457...	Extracting... 28933457-1 (e-value 4e-36, %id 37, %length 0.93)
+Requesting sequence 14250650...	Extracting... 14250650-1 (e-value 5e-36, %id 38, %length 0.97)
+Requesting sequence 126310937...	Extracting... 126310937-1 (e-value 6e-36, %id 37, %length 0.97)
+Requesting sequence 46947344...	Extracting... 46947344-1 (e-value 6e-36, %id 37, %length 0.97)
+Requesting sequence 306820...	Extracting... 306820-1 (e-value 6e-36, %id 38, %length 0.97)
+Requesting sequence 116047849...	Extracting... 116047849-1 (e-value 7e-36, %id 42, %length 0.84)
+Requesting sequence 114558274...	Extracting... 114558274-1 (e-value 7e-36, %id 41, %length 0.86)
+Requesting sequence 114559070...	Extracting... 114559070-1 (e-value 9e-36, %id 37, %length 0.97)
+Requesting sequence 148669986...	Extracting... 148669986-1 (e-value 9e-36, %id 37, %length 0.97)
+Requesting sequence 114559056...	Extracting... 114559056-1 (e-value 9e-36, %id 39, %length 0.97)
+Requesting sequence 109013316...	Extracting... 109013316-1 (e-value 1e-35, %id 37, %length 0.97)
+Requesting sequence 33772598...	Extracting... 33772598-1 (e-value 1e-35, %id 37, %length 0.95)
+Requesting sequence 33468899...	Extracting... 33468899-1 (e-value 1e-35, %id 37, %length 0.97)
+Requesting sequence 423912...	Extracting... 423912-1 (e-value 1e-35, %id 38, %length 0.91)
+Requesting sequence 33943616...	Extracting... 33943616-1 (e-value 1e-35, %id 37, %length 0.95)
+Requesting sequence 109013331...	Extracting... 109013331-1 (e-value 2e-35, %id 37, %length 0.97)
+Requesting sequence 6754086...	Extracting... 6754086-1 (e-value 2e-35, %id 37, %length 0.97)
+Requesting sequence 114558272...	Extracting... 114558272-1 (e-value 2e-35, %id 35, %length 0.97)
+Requesting sequence 148669980...	Extracting... 148669980-1 (e-value 2e-35, %id 41, %length 0.8)
+Requesting sequence 57088159...	Extracting... 57088159-1 (e-value 3e-35, %id 37, %length 0.96)
+Requesting sequence 148669981...	Extracting... 148669981-1 (e-value 3e-35, %id 41, %length 0.8)
+Requesting sequence 114053087...	Extracting... 114053087-1 (e-value 3e-35, %id 37, %length 0.97)
+Requesting sequence 47076115...	Extracting... 47076115-1 (e-value 3e-35, %id 37, %length 0.94)
+Requesting sequence 25282395...	Extracting... 25282395-1 (e-value 4e-35, %id 37, %length 0.97)
+Requesting sequence 62089218...	Extracting... 62089218-1 (e-value 4e-35, %id 38, %length 0.97)
+Requesting sequence 60920770...	Extracting... 60920770-1 (e-value 5e-35, %id 39, %length 0.89)
+Requesting sequence 148669985...	Extracting... 148669985-1 (e-value 6e-35, %id 36, %length 0.97)
+Requesting sequence 114558270...	Extracting... 114558270-1 (e-value 7e-35, %id 41, %length 0.85)
+Requesting sequence 148669989...	Extracting... 148669989-1 (e-value 8e-35, %id 36, %length 0.93)
+Requesting sequence 148664628...	Extracting... 148664628-1 (e-value 8e-35, %id 43, %length 0.75)
+Requesting sequence 114558268...	Extracting... 114558268-1 (e-value 9e-35, %id 41, %length 0.85)
+Requesting sequence 114559054...	Extracting... 114559054-1 (e-value 9e-35, %id 38, %length 0.97)
+Requesting sequence 119576807...	Extracting... 119576807-1 (e-value 2e-34, %id 34, %length 0.97)
+Requesting sequence 207692...	Extracting... 207692-1 (e-value 2e-34, %id 42, %length 0.75)
+Requesting sequence 193690...	Extracting... 193690-1 (e-value 3e-34, %id 43, %length 0.79)
+Requesting sequence 204499...	Extracting... 204499-1 (e-value 3e-34, %id 42, %length 0.75)
+Requesting sequence 114559076...	Extracting... 114559076-1 (e-value 3e-34, %id 42, %length 0.79)
+Requesting sequence 109013280...	Extracting... 109013280-1 (e-value 5e-34, %id 40, %length 0.85)
+Requesting sequence 60920899...	Extracting... 60920899-1 (e-value 6e-34, %id 36, %length 0.95)
+Requesting sequence 23065557...	Extracting... 23065557-1 (e-value 8e-34, %id 40, %length 0.85)
+Requesting sequence 47086689...	Extracting... 47086689-1 (e-value 1e-33, %id 37, %length 0.97)
+Requesting sequence 56204920...	Extracting... 56204920-1 (e-value 1e-33, %id 36, %length 0.97)
+Requesting sequence 149025655...	Extracting... 149025655-1 (e-value 1e-33, %id 34, %length 0.97)
+Requesting sequence 46048786...	Extracting... 46048786-1 (e-value 2e-33, %id 38, %length 0.97)
+Requesting sequence 27462836...	Extracting... 27462836-1 (e-value 3e-33, %id 36, %length 0.95)
+Requesting sequence 47228778...	Extracting... 47228778-1 (e-value 4e-33, %id 37, %length 0.97)
+Requesting sequence 112901117...	Extracting... 112901117-1 (e-value 5e-33, %id 37, %length 0.97)
+Requesting sequence 8489487...	Extracting... 8489487-1 (e-value 8e-33, %id 44, %length 0.73)
+Requesting sequence 157823707...	Extracting... 157823707-1 (e-value 9e-33, %id 39, %length 0.79)
+Requesting sequence 114559066...	Extracting... 114559066-1 (e-value 1e-32, %id 34, %length 0.97)
+Requesting sequence 12853535...	Extracting... 12853535-1 (e-value 1e-32, %id 35, %length 0.97)
+Requesting sequence 158534053...	Extracting... 158534053-1 (e-value 1e-32, %id 36, %length 0.97)
+Requesting sequence 149025662...	Extracting... 149025662-1 (e-value 1e-32, %id 42, %length 0.72)
+Requesting sequence 242247629...	Extracting... 242247629-1 (e-value 2e-32, %id 37, %length 0.97)
+Requesting sequence 31933...	Extracting... 31933-1 (e-value 1e-31, %id 39, %length 0.84)
+Requesting sequence 114559060...	Extracting... 114559060-1 (e-value 4e-31, %id 39, %length 0.86)
+Requesting sequence 47205768...	Extracting... 47205768-1 (e-value 2e-30, %id 39, %length 0.79)
+Requesting sequence 6625558...	Extracting... 6625558-1 (e-value 3e-30, %id 33, %length 0.89)
+Requesting sequence 1170095...	Extracting... 1170095-1 (e-value 3e-30, %id 34, %length 0.96)
+Requesting sequence 60920795...	Extracting... 60920795-1 (e-value 3e-30, %id 35, %length 0.98)
+Requesting sequence 60920878...	Extracting... 60920878-1 (e-value 4e-30, %id 34, %length 0.96)
+Requesting sequence 73959315...	Extracting... 73959315-1 (e-value 5e-30, %id 39, %length 0.83)
+Requesting sequence 37958171...	Extracting... 37958171-1 (e-value 6e-30, %id 34, %length 0.95)
+Requesting sequence 138236670...	Extracting... 138236670-1 (e-value 7e-30, %id 40, %length 0.8)
+Requesting sequence 119570927...	Extracting... 119570927-1 (e-value 4e-29, %id 44, %length 0.66)
+Requesting sequence 51011500...	Extracting... 51011500-1 (e-value 1e-27, %id 34, %length 0.93)
+Requesting sequence 76613069...	Extracting... 76613069-1 (e-value 7e-27, %id 43, %length 0.67)
+Requesting sequence 119568685...	Extracting... 119568685-1 (e-value 7e-27, %id 40, %length 0.79)
+Requesting sequence 114608894...	Extracting... 114608894-1 (e-value 8e-27, %id 39, %length 0.8)
+Requesting sequence 114558282...	Extracting... 114558282-1 (e-value 6e-26, %id 43, %length 0.63)
+Requesting sequence 112292918...	Extracting... 112292918-1 (e-value 9e-25, %id 39, %length 0.73)
+Requesting sequence 123122780...	Extracting... 123122780-1 (e-value 9e-25, %id 33, %length 0.78)
+Requesting sequence 114558276...	Extracting... 114558276-1 (e-value 1e-24, %id 39, %length 0.67)
+Requesting sequence 109013283...	Extracting... 109013283-1 (e-value 2e-24, %id 39, %length 0.67)
+Requesting sequence 148669978...	Extracting... 148669978-1 (e-value 2e-24, %id 32, %length 0.97)
+Requesting sequence 126310939...	Extracting... 126310939-1 (e-value 3e-24, %id 39, %length 0.67)
+Requesting sequence 109013304...	Extracting... 109013304-1 (e-value 4e-24, %id 41, %length 0.67)
+Requesting sequence 56204918...	Extracting... 56204918-1 (e-value 4e-24, %id 43, %length 0.63)
+Requesting sequence 82881923...	Extracting... 82881923-1 (e-value 5e-24, %id 39, %length 0.71)
+Requesting sequence 19848969...	Extracting... 19848969-1 (e-value 1e-23, %id 30, %length 0.93)
+Requesting sequence 73959319...	Extracting... 73959319-1 (e-value 2e-23, %id 38, %length 0.67)
+Requesting sequence 34534082...	Extracting... 34534082-1 (e-value 4e-23, %id 42, %length 0.63)
+Requesting sequence 114559062...	Extracting... 114559062-1 (e-value 7e-23, %id 43, %length 0.62)
+Requesting sequence 149025651...	Extracting... 149025651-1 (e-value 1e-22, %id 34, %length 0.72)
+Requesting sequence 109013319...	Extracting... 109013319-1 (e-value 2e-22, %id 37, %length 0.67)
+Requesting sequence 145487993...	Extracting... 145487993-1 (e-value 5e-22, %id 34, %length 0.93)
+Requesting sequence 145487989...	Extracting... 145487989-1 (e-value 2e-21, %id 34, %length 0.95)
+Requesting sequence 23065547...	Extracting... 23065547-1 (e-value 3e-21, %id 37, %length 0.67)
+Requesting sequence 114559072...	Extracting... 114559072-1 (e-value 9e-21, %id 37, %length 0.67)
+Requesting sequence 73956368...	Extracting... 73956368-1 (e-value 1e-20, %id 41, %length 0.62)
+Requesting sequence 50402815...	Extracting... 50402815-1 (e-value 2e-20, %id 37, %length 0.63)
+Requesting sequence 114558278...	Extracting... 114558278-1 (e-value 7e-19, %id 38, %length 0.59)
+Requesting sequence 37958149...	Extracting...(37958149-1 ignored - alignment has sequence identity below minimum [e-value 9e-19, %id 28, %length 0.91])
+Requesting sequence 118347260...	Extracting...(118347260-1 ignored - alignment has sequence identity below minimum [e-value 1e-18, %id 29, %length 0.94])
+Requesting sequence 149025668...	Extracting... 149025668-1 (e-value 3e-18, %id 39, %length 0.51)
+Requesting sequence 118350783...	Extracting... 118350783-1 (e-value 3e-18, %id 31, %length 0.95)
+Requesting sequence 21263651...	Extracting... 21263651-1 (e-value 4e-18, %id 32, %length 0.76)
+Requesting sequence 118371197...	Extracting... 118371197-1 (e-value 5e-18, %id 32, %length 0.91)
+Requesting sequence 78557758...	Extracting... 78557758-1 (e-value 7e-18, %id 39, %length 0.54)
+Requesting sequence 22671702...	Extracting... 22671702-1 (e-value 8e-18, %id 32, %length 0.76)
+Requesting sequence 22094809...	Extracting...(22094809-1 ignored - alignment has sequence identity below minimum [e-value 8e-18, %id 29, %length 0.93])
+Requesting sequence 60460481...	Extracting... 60460481-1 (e-value 1e-17, %id 30, %length 0.92)
+Requesting sequence 45387463...	Extracting...(45387463-1 ignored - alignment has sequence identity below minimum [e-value 1e-17, %id 29, %length 0.93])
+Requesting sequence 726098...	Extracting... 726098-1 (e-value 2e-17, %id 30, %length 0.76)
+Requesting sequence 118350775...	Extracting... 118350775-1 (e-value 2e-17, %id 30, %length 0.95)
+Requesting sequence 119595054...	Extracting... 119595054-1 (e-value 2e-17, %id 30, %length 0.76)
+Requesting sequence 41387382...	Extracting... 41387382-1 (e-value 2e-17, %id 34, %length 0.76)
+Requesting sequence 544445...	Extracting... 544445-1 (e-value 2e-17, %id 32, %length 0.7)
+Requesting sequence 28630830...	Extracting...(28630830-1 ignored - alignment has sequence identity below minimum [e-value 2e-17, %id 29, %length 0.94])
+Requesting sequence 118373873...	Extracting... 118373873-1 (e-value 2e-17, %id 31, %length 0.87)
+Requesting sequence 114638783...	Extracting... 114638783-1 (e-value 2e-17, %id 30, %length 0.76)
+Requesting sequence 18858197...	Extracting... 18858197-1 (e-value 3e-17, %id 32, %length 0.76)
+Requesting sequence 32401425...	Extracting... 32401425-1 (e-value 3e-17, %id 30, %length 0.78)
+Requesting sequence 118373859...	Extracting... 118373859-1 (e-value 3e-17, %id 32, %length 0.87)
+Requesting sequence 1170101...	Extracting...(1170101-1 ignored - alignment has sequence identity below minimum [e-value 4e-17, %id 29, %length 0.94])
+Requesting sequence 2058287...	Extracting...(2058287-1 ignored - alignment has sequence identity below minimum [e-value 4e-17, %id 29, %length 0.94])
+Requesting sequence 118350781...	Extracting... 118350781-1 (e-value 4e-17, %id 31, %length 0.95)
+Requesting sequence 67677962...	Extracting...(67677962-1 ignored - alignment has sequence identity below minimum [e-value 5e-17, %id 28, %length 0.92])
+Requesting sequence 148701047...	Extracting... 148701047-1 (e-value 6e-17, %id 32, %length 0.7)
+Requesting sequence 197097848...	Extracting... 197097848-1 (e-value 6e-17, %id 30, %length 0.76)
+Requesting sequence 148701044...	Extracting... 148701044-1 (e-value 7e-17, %id 30, %length 0.78)
+Requesting sequence 10092608...	Extracting... 10092608-1 (e-value 7e-17, %id 30, %length 0.78)
+Requesting sequence 26347823...	Extracting... 26347823-1 (e-value 8e-17, %id 30, %length 0.78)
+Requesting sequence 66472865...	Extracting...(66472865-1 ignored - alignment has sequence identity below minimum [e-value 9e-17, %id 29, %length 0.94])
+Requesting sequence 7025464...	Extracting... 7025464-1 (e-value 9e-17, %id 34, %length 0.68)
+Requesting sequence 2204207...	Extracting... 2204207-1 (e-value 9e-17, %id 30, %length 0.76)
+Requesting sequence 975211...	Extracting... 975211-1 (e-value 1e-16, %id 30, %length 0.94)
+Requesting sequence 1170102...	Extracting... 1170102-1 (e-value 1e-16, %id 30, %length 0.94)
+Requesting sequence 3023905...	Extracting... 3023905-1 (e-value 1e-16, %id 32, %length 0.77)
+Requesting sequence 1346208...	Extracting... 1346208-1 (e-value 2e-16, %id 31, %length 0.77)
+Requesting sequence 111185949...	Extracting...(111185949-1 ignored - alignment has sequence identity below minimum [e-value 2e-16, %id 29, %length 0.76])
+Requesting sequence 1170100...	Extracting... 1170100-1 (e-value 2e-16, %id 31, %length 0.76)
+Requesting sequence 25453420...	Extracting... 25453420-1 (e-value 5e-16, %id 31, %length 0.76)
+Requesting sequence 149061923...	Extracting... 149061923-1 (e-value 5e-16, %id 31, %length 0.76)
+Requesting sequence 148235929...	Extracting...(148235929-1 ignored - alignment has sequence identity below minimum [e-value 8e-16, %id 27, %length 0.92])
+Requesting sequence 29135329...	Extracting...(29135329-1 ignored - alignment has sequence identity below minimum [e-value 9e-16, %id 28, %length 0.76])
+Requesting sequence 6013379...	Extracting...(6013379-1 ignored - alignment has sequence identity below minimum [e-value 1e-15, %id 28, %length 0.76])
+Requesting sequence 118373867...	Extracting... 118373867-1 (e-value 1e-15, %id 33, %length 0.87)
+Requesting sequence 134035966...	Extracting... 134035966-1 (e-value 1e-15, %id 30, %length 0.78)
+Requesting sequence 118373875...	Extracting...(118373875-1 ignored - alignment has sequence identity below minimum [e-value 1e-15, %id 29, %length 0.87])
+Requesting sequence 84029298...	Extracting...(84029298-1 ignored - alignment has sequence identity below minimum [e-value 1e-15, %id 28, %length 0.76])
+Requesting sequence 46329897...	Extracting... 46329897-1 (e-value 2e-15, %id 33, %length 0.69)
+Requesting sequence 60460483...	Extracting... 60460483-1 (e-value 2e-15, %id 30, %length 0.78)
+Requesting sequence 31937...	Extracting...(31937-1 ignored - region of homology less than 0.5 * query length [e-value 2e-15, %id 50, %length 0.34])
+Requesting sequence 118373871...	Extracting... 118373871-1 (e-value 3e-15, %id 33, %length 0.87)
+Requesting sequence 146177326...	Extracting... 146177326-1 (e-value 3e-15, %id 33, %length 0.89)
+Requesting sequence 95113933...	Extracting... 95113933-1 (e-value 5e-15, %id 30, %length 0.76)
+Requesting sequence 1335093...	Extracting...(1335093-1 ignored - region of homology less than 0.5 * query length [e-value 5e-15, %id 51, %length 0.34])
+Requesting sequence 220679250...	Extracting... 220679250-1 (e-value 7e-15, %id 39, %length 0.5)
+Requesting sequence 73992569...	Extracting...(73992569-1 ignored - alignment has sequence identity below minimum [e-value 8e-15, %id 28, %length 0.76])
+Requesting sequence 73983594...	Extracting...(73983594-1 ignored - alignment has sequence identity below minimum [e-value 1e-14, %id 27, %length 0.76])
+Requesting sequence 74007131...	Extracting...(74007131-1 ignored - alignment has sequence identity below minimum [e-value 1e-14, %id 27, %length 0.76])
+Requesting sequence 57099635...	Extracting...(57099635-1 ignored - alignment has sequence identity below minimum [e-value 2e-14, %id 29, %length 0.77])
+Requesting sequence 4630882...	Extracting... 4630882-1 (e-value 5e-14, %id 31, %length 0.75)
+Requesting sequence 268574890...	Extracting...(268574890-1 ignored - alignment has sequence identity below minimum [e-value 1e-13, %id 26, %length 0.94])
+Requesting sequence 22671705...	Extracting... 22671705-1 (e-value 2e-13, %id 33, %length 0.66)
+Requesting sequence 73975748...	Extracting...(73975748-1 ignored - alignment has sequence identity below minimum [e-value 2e-13, %id 26, %length 0.76])
+Requesting sequence 62860170...	Extracting... 62860170-1 (e-value 2e-13, %id 31, %length 0.69)
+Requesting sequence 112901122...	Extracting... 112901122-1 (e-value 4e-13, %id 30, %length 0.76)
+Requesting sequence 95832156...	Extracting... 95832156-1 (e-value 4e-13, %id 30, %length 0.76)
+Requesting sequence 146177318...	Extracting... 146177318-1 (e-value 6e-13, %id 30, %length 0.88)
+Requesting sequence 52001205...	Extracting...(52001205-1 ignored - region of homology less than 0.5 * query length [e-value 1e-12, %id 47, %length 0.32])
+Requesting sequence 76446091...	Extracting...(76446091-1 ignored - alignment has sequence identity below minimum [e-value 2e-12, %id 28, %length 0.87])
+Requesting sequence 76446095...	Extracting...(76446095-1 ignored - alignment has sequence identity below minimum [e-value 2e-12, %id 28, %length 0.87])
+Requesting sequence 114559078...	Extracting...(114559078-1 ignored - region of homology less than 0.5 * query length [e-value 3e-12, %id 38, %length 0.44])
+Requesting sequence 68521878...	Extracting...(68521878-1 ignored - region of homology less than 0.5 * query length [e-value 4e-12, %id 39, %length 0.44])
+Requesting sequence 114558280...	Extracting...(114558280-1 ignored - region of homology less than 0.5 * query length [e-value 4e-12, %id 39, %length 0.44])
+Requesting sequence 149025656...	Extracting...(149025656-1 ignored - region of homology less than 0.5 * query length [e-value 5e-12, %id 38, %length 0.44])
+Requesting sequence 57091345...	Extracting...(57091345-1 ignored - alignment has sequence identity below minimum [e-value 5e-12, %id 25, %length 0.76])
+Requesting sequence 21263652...	Extracting... 21263652-1 (e-value 6e-12, %id 32, %length 0.7)
+Requesting sequence 145492933...	Extracting...(145492933-1 ignored - alignment has sequence identity below minimum [e-value 7e-12, %id 28, %length 0.91])
+Requesting sequence 118381491...	Extracting...(118381491-1 ignored - alignment has sequence identity below minimum [e-value 9e-12, %id 29, %length 0.89])
+Requesting sequence 119919383...	Extracting...(119919383-1 ignored - alignment has sequence identity below minimum [e-value 2e-11, %id 27, %length 0.76])
+Requesting sequence 2275021...	Extracting...(2275021-1 ignored - region of homology less than 0.5 * query length [e-value 3e-11, %id 41, %length 0.4])
+Requesting sequence 118365563...	Extracting... 118365563-1 (e-value 3e-11, %id 30, %length 0.89)
+Requesting sequence 17553834...	Extracting...(17553834-1 ignored - alignment has sequence identity below minimum [e-value 5e-11, %id 26, %length 0.94])
+Requesting sequence 146165525...	Extracting... 146165525-1 (e-value 6e-11, %id 30, %length 0.89)
+Requesting sequence 118364065...	Extracting... 118364065-1 (e-value 8e-11, %id 30, %length 0.89)
+Requesting sequence 114559058...	Extracting...(114559058-1 ignored - region of homology less than 0.5 * query length [e-value 8e-11, %id 39, %length 0.44])
+Requesting sequence 66810640...	Extracting... 66810640-1 (e-value 1e-10, %id 31, %length 0.88)
+Requesting sequence 145477793...	Extracting...(145477793-1 ignored - alignment has sequence identity below minimum [e-value 1e-10, %id 26, %length 0.92])
+Requesting sequence 54261781...	Extracting... 54261781-1 (e-value 4e-10, %id 31, %length 0.67)
+Requesting sequence 118361776...	Extracting...(118361776-1 ignored - alignment has sequence identity below minimum [e-value 5e-10, %id 27, %length 0.89])
+Requesting sequence 118498706...	Extracting... 118498706-1 (e-value 8e-10, %id 30, %length 0.73)
+Requesting sequence 118361790...	Extracting...(118361790-1 ignored - alignment has sequence identity below minimum [e-value 9e-10, %id 28, %length 0.89])
+Requesting sequence 118361786...	Extracting...(118361786-1 ignored - alignment has sequence identity below minimum [e-value 1e-09, %id 27, %length 0.89])
+Requesting sequence 118347334...	Extracting...(118347334-1 ignored - alignment has sequence identity below minimum [e-value 2e-09, %id 27, %length 0.89])
+Requesting sequence 118361796...	Extracting...(118361796-1 ignored - alignment has sequence identity below minimum [e-value 2e-09, %id 28, %length 0.89])
+Requesting sequence 118373869...	Extracting...(118373869-1 ignored - alignment has sequence identity below minimum [e-value 2e-09, %id 29, %length 0.86])
+Requesting sequence 283806639...	Extracting... 283806639-1 (e-value 2e-09, %id 31, %length 0.71)
+Requesting sequence 119595056...	Extracting... 119595056-1 (e-value 2e-09, %id 30, %length 0.62)
+Requesting sequence 145490433...	Extracting...(145490433-1 ignored - alignment has sequence identity below minimum [e-value 3e-09, %id 29, %length 0.92])
+Requesting sequence 118498702...	Extracting... 118498702-1 (e-value 3e-09, %id 31, %length 0.73)
+Requesting sequence 17565768...	Extracting...(17565768-1 ignored - alignment has sequence identity below minimum [e-value 3e-09, %id 28, %length 0.74])
+Requesting sequence 73999534...	Extracting...(73999534-1 ignored - alignment has sequence identity below minimum [e-value 4e-09, %id 24, %length 0.76])
+Requesting sequence 114581401...	Extracting... 114581401-1 (e-value 4e-09, %id 36, %length 0.56)
+Requesting sequence 118389060...	Extracting...(118389060-1 ignored - alignment has sequence identity below minimum [e-value 4e-09, %id 28, %length 0.89])
+Requesting sequence 118364946...	Extracting...(118364946-1 ignored - alignment has sequence identity below minimum [e-value 8e-09, %id 26, %length 0.96])
+Requesting sequence 82594589...	Extracting...(82594589-1 ignored - alignment has sequence identity below minimum [e-value 1e-08, %id 29, %length 0.74])
+Requesting sequence 118389070...	Extracting...(118389070-1 ignored - alignment has sequence identity below minimum [e-value 1e-08, %id 29, %length 0.89])
+Requesting sequence 148701049...	Extracting...(148701049-1 ignored - alignment has sequence identity below minimum [e-value 1e-08, %id 25, %length 0.75])
+Requesting sequence 112901102...	Extracting... 112901102-1 (e-value 1e-08, %id 31, %length 0.73)
+Requesting sequence 21450105...	Extracting...(21450105-1 ignored - alignment has sequence identity below minimum [e-value 1e-08, %id 25, %length 0.75])
+Requesting sequence 52354834...	Extracting... 52354834-1 (e-value 2e-08, %id 31, %length 0.67)
+Requesting sequence 118367302...	Extracting...(118367302-1 ignored - alignment has sequence identity below minimum [e-value 2e-08, %id 25, %length 0.89])
+Requesting sequence 12832492...	Extracting...(12832492-1 ignored - alignment has sequence identity below minimum [e-value 2e-08, %id 29, %length 0.88])
+Requesting sequence 145492935...	Extracting...(145492935-1 ignored - alignment has sequence identity below minimum [e-value 2e-08, %id 27, %length 0.92])
+Requesting sequence 31981724...	Extracting...(31981724-1 ignored - alignment has sequence identity below minimum [e-value 2e-08, %id 29, %length 0.88])
+Requesting sequence 126310251...	Extracting...(126310251-1 ignored - alignment has sequence identity below minimum [e-value 2e-08, %id 28, %length 0.7])
+Requesting sequence 17507251...	Extracting...(17507251-1 ignored - alignment has sequence identity below minimum [e-value 2e-08, %id 26, %length 0.7])
+Requesting sequence 387179...	Extracting... 387179-1 (e-value 3e-08, %id 30, %length 0.73)
+Requesting sequence 2495107...	Extracting... 2495107-1 (e-value 3e-08, %id 33, %length 0.67)
+Requesting sequence 149260087...	Extracting... 149260087-1 (e-value 3e-08, %id 30, %length 0.73)
+Requesting sequence 57283135...	Extracting...(57283135-1 ignored - alignment has sequence identity below minimum [e-value 3e-08, %id 28, %length 0.64])
+Requesting sequence 118379170...	Extracting...(118379170-1 ignored - alignment has sequence identity below minimum [e-value 3e-08, %id 28, %length 0.89])
+Requesting sequence 154350202...	Extracting... 154350202-1 (e-value 3e-08, %id 30, %length 0.73)
+Requesting sequence 13928688...	Extracting... 13928688-1 (e-value 3e-08, %id 30, %length 0.88)
+Requesting sequence 193703...	Extracting...(193703-1 ignored - alignment has sequence identity below minimum [e-value 4e-08, %id 29, %length 0.88])
+Requesting sequence 118379172...	Extracting...(118379172-1 ignored - alignment has sequence identity below minimum [e-value 4e-08, %id 27, %length 0.91])
+Requesting sequence 7188365...	Extracting... 7188365-1 (e-value 4e-08, %id 30, %length 0.88)
+Requesting sequence 126310244...	Extracting... 126310244-1 (e-value 4e-08, %id 35, %length 0.62)
+Requesting sequence 118354521...	Extracting...(118354521-1 ignored - alignment has sequence identity below minimum [e-value 4e-08, %id 27, %length 0.89])
+Requesting sequence 118389068...	Extracting...(118389068-1 ignored - alignment has sequence identity below minimum [e-value 5e-08, %id 28, %length 0.89])
+Requesting sequence 58331159...	Extracting...(58331159-1 ignored - alignment has sequence identity below minimum [e-value 5e-08, %id 28, %length 0.88])
+Requesting sequence 17563170...	Extracting...(17563170-1 ignored - alignment has sequence identity below minimum [e-value 6e-08, %id 29, %length 0.69])
+Requesting sequence 1654009...	Extracting...(1654009-1 ignored - alignment has sequence identity below minimum [e-value 7e-08, %id 29, %length 0.88])
+Requesting sequence 118367298...	Extracting...(118367298-1 ignored - alignment has sequence identity below minimum [e-value 8e-08, %id 27, %length 0.92])
+Requesting sequence 307746888...	Extracting...(307746888-1 ignored - alignment has sequence identity below minimum [e-value 9e-08, %id 29, %length 0.88])
+Requesting sequence 149061925...	Extracting...(149061925-1 ignored - alignment has sequence identity below minimum [e-value 9e-08, %id 25, %length 0.76])
+Requesting sequence 76446093...	Extracting...(76446093-1 ignored - alignment has sequence identity below minimum [e-value 1e-07, %id 26, %length 0.87])
+Requesting sequence 118376992...	Extracting...(118376992-1 ignored - region of homology less than 0.5 * query length [e-value 1e-07, %id 38, %length 0.35])
+Requesting sequence 307746890...	Extracting...(307746890-1 ignored - alignment has sequence identity below minimum [e-value 1e-07, %id 28, %length 0.88])
+Requesting sequence 283806641...	Extracting... 283806641-1 (e-value 1e-07, %id 31, %length 0.66)
+Requesting sequence 126310134...	Extracting... 126310134-1 (e-value 1e-07, %id 32, %length 0.62)
+Requesting sequence 126310246...	Extracting... 126310246-1 (e-value 1e-07, %id 34, %length 0.62)
+Requesting sequence 68563418...	Extracting... 68563418-1 (e-value 1e-07, %id 31, %length 0.66)
+Requesting sequence 118367304...	Extracting...(118367304-1 ignored - alignment has sequence identity below minimum [e-value 1e-07, %id 27, %length 0.89])
+Requesting sequence 118386917...	Extracting...(118386917-1 ignored - alignment has sequence identity below minimum [e-value 2e-07, %id 28, %length 0.89])
+Requesting sequence 145484721...	Extracting...(145484721-1 ignored - alignment has sequence identity below minimum [e-value 2e-07, %id 23, %length 0.92])
+Requesting sequence 118364950...	Extracting...(118364950-1 ignored - alignment has sequence identity below minimum [e-value 2e-07, %id 25, %length 0.94])
+Requesting sequence 118364061...	Extracting...(118364061-1 ignored - alignment has sequence identity below minimum [e-value 2e-07, %id 29, %length 0.89])
+Requesting sequence 57109140...	Extracting...(57109140-1 ignored - alignment has sequence identity below minimum [e-value 3e-07, %id 26, %length 0.67])
+Requesting sequence 16518972...	Extracting...(16518972-1 ignored - alignment has sequence identity below minimum [e-value 3e-07, %id 28, %length 0.72])
+Requesting sequence 118498708...	Extracting... 118498708-1 (e-value 3e-07, %id 30, %length 0.56)
+Requesting sequence 47523158...	Extracting... 47523158-1 (e-value 3e-07, %id 31, %length 0.62)
+Requesting sequence 118367300...	Extracting...(118367300-1 ignored - alignment has sequence identity below minimum [e-value 3e-07, %id 28, %length 0.92])
+Requesting sequence 5524944...	Extracting... 5524944-1 (e-value 4e-07, %id 32, %length 0.71)
+Requesting sequence 126310249...	Extracting... 126310249-1 (e-value 4e-07, %id 33, %length 0.62)
+Requesting sequence 46947348...	Extracting...(46947348-1 ignored - alignment has sequence identity below minimum [e-value 4e-07, %id 28, %length 0.88])
+Requesting sequence 7687909...	Extracting... 7687909-1 (e-value 4e-07, %id 32, %length 0.71)
+Requesting sequence 47523832...	Extracting... 47523832-1 (e-value 4e-07, %id 31, %length 0.62)
+Requesting sequence 51036637...	Extracting... 51036637-1 (e-value 5e-07, %id 31, %length 0.73)
+Requesting sequence 66814384...	Extracting... 66814384-1 (e-value 5e-07, %id 30, %length 0.67)
+Requesting sequence 34536838...	Extracting...(34536838-1 ignored - alignment has sequence identity below minimum [e-value 5e-07, %id 26, %length 0.75])
+Requesting sequence 118151372...	Extracting... 118151372-1 (e-value 5e-07, %id 33, %length 0.71)
+Requesting sequence 109071517...	Extracting...(109071517-1 ignored - alignment has sequence identity below minimum [e-value 5e-07, %id 28, %length 0.88])
+Requesting sequence 204495...	Extracting... 204495-1 (e-value 5e-07, %id 31, %length 0.73)
+Requesting sequence 115311602...	Extracting... 115311602-1 (e-value 5e-07, %id 30, %length 0.75)
+Requesting sequence 22091454...	Extracting...(22091454-1 ignored - alignment has sequence identity below minimum [e-value 6e-07, %id 28, %length 0.88])
+Requesting sequence 1215748...	Extracting... 1215748-1 (e-value 6e-07, %id 32, %length 0.71)
+Requesting sequence 68563420...	Extracting... 68563420-1 (e-value 6e-07, %id 30, %length 0.66)
+Requesting sequence 114607875...	Extracting... 114607875-1 (e-value 7e-07, %id 31, %length 0.71)
+Requesting sequence 66822089...	Extracting... 66822089-1 (e-value 7e-07, %id 31, %length 0.66)
+Requesting sequence 121710...	Extracting... 121710-1 (e-value 8e-07, %id 31, %length 0.73)
+Requesting sequence 47028299...	Extracting...(47028299-1 ignored - alignment has sequence identity below minimum [e-value 1e-06, %id 24, %length 0.95])
+Requesting sequence 54402418...	Extracting...(54402418-1 ignored - alignment has sequence identity below minimum [e-value 1e-06, %id 28, %length 0.67])
+Requesting sequence 148694413...	Extracting... 148694413-1 (e-value 1e-06, %id 31, %length 0.73)
+Requesting sequence 114607867...	Extracting...(114607867-1 ignored - alignment has sequence identity below minimum [e-value 1e-06, %id 28, %length 0.88])
+Requesting sequence 118387799...	Extracting...(118387799-1 ignored - alignment has sequence identity below minimum [e-value 1e-06, %id 28, %length 0.89])
+Requesting sequence 121713...	Extracting... 121713-1 (e-value 1e-06, %id 32, %length 0.67)
+Requesting sequence 47717441...	Extracting...(47717441-1 ignored - alignment has sequence identity below minimum [e-value 1e-06, %id 26, %length 0.68])
+Requesting sequence 20988789...	Extracting... 20988789-1 (e-value 1e-06, %id 31, %length 0.73)
+Requesting sequence 114607855...	Extracting...(114607855-1 ignored - alignment has sequence identity below minimum [e-value 2e-06, %id 29, %length 0.88])
+Requesting sequence 12848219...	Extracting... 12848219-1 (e-value 2e-06, %id 31, %length 0.67)
+Requesting sequence 257476...	Extracting...(257476-1 ignored - alignment has sequence identity below minimum [e-value 2e-06, %id 27, %length 0.88])
+Requesting sequence 57094546...	Extracting... 57094546-1 (e-value 2e-06, %id 31, %length 0.71)
+Requesting sequence 50263046...	Extracting... 50263046-1 (e-value 2e-06, %id 31, %length 0.73)
+Requesting sequence 149642635...	Extracting... 149642635-1 (e-value 2e-06, %id 30, %length 0.72)
+Requesting sequence 118498710...	Extracting...(118498710-1 ignored - alignment has sequence identity below minimum [e-value 2e-06, %id 27, %length 0.56])
+Requesting sequence 21952442...	Extracting... 21952442-1 (e-value 2e-06, %id 30, %length 0.65)
+Requesting sequence 119624791...	Extracting... 119624791-1 (e-value 2e-06, %id 30, %length 0.71)
+Requesting sequence 215276987...	Extracting...(215276987-1 ignored - alignment has sequence identity below minimum [e-value 2e-06, %id 29, %length 0.71])
+Requesting sequence 52346086...	Extracting... 52346086-1 (e-value 2e-06, %id 30, %length 0.65)
+Requesting sequence 114607851...	Extracting... 114607851-1 (e-value 2e-06, %id 32, %length 0.71)
+Requesting sequence 58331251...	Extracting... 58331251-1 (e-value 3e-06, %id 32, %length 0.67)
+Requesting sequence 160298217...	Extracting... 160298217-1 (e-value 3e-06, %id 32, %length 0.62)
+Requesting sequence 624322...	Extracting...(624322-1 ignored - alignment has sequence identity below minimum [e-value 3e-06, %id 25, %length 0.76])
+Requesting sequence 109071519...	Extracting...(109071519-1 ignored - alignment has sequence identity below minimum [e-value 3e-06, %id 27, %length 0.88])
+Requesting sequence 73973357...	Extracting... 73973357-1 (e-value 3e-06, %id 31, %length 0.62)
+Requesting sequence 148232276...	Extracting... 148232276-1 (e-value 3e-06, %id 30, %length 0.65)
+Requesting sequence 12859396...	Extracting... 12859396-1 (e-value 3e-06, %id 32, %length 0.62)
+Requesting sequence 268556118...	Extracting...(268556118-1 ignored - alignment has sequence identity below minimum [e-value 3e-06, %id 25, %length 0.72])
+Requesting sequence 119624792...	Extracting...(119624792-1 ignored - alignment has sequence identity below minimum [e-value 3e-06, %id 29, %length 0.71])
+Requesting sequence 825605...	Extracting... 825605-1 (e-value 3e-06, %id 31, %length 0.71)
+Requesting sequence 116004443...	Extracting... 116004443-1 (e-value 3e-06, %id 31, %length 0.62)
+Requesting sequence 148694431...	Extracting... 148694431-1 (e-value 3e-06, %id 32, %length 0.62)
+Requesting sequence 114607883...	Extracting...(114607883-1 ignored - alignment has sequence identity below minimum [e-value 3e-06, %id 28, %length 0.88])
+Requesting sequence 302565328...	Extracting...(302565328-1 ignored - alignment has sequence identity below minimum [e-value 4e-06, %id 25, %length 0.66])
+Requesting sequence 157820217...	Extracting... 157820217-1 (e-value 4e-06, %id 31, %length 0.62)
+Requesting sequence 187132...	Extracting...(187132-1 ignored - alignment has sequence identity below minimum [e-value 4e-06, %id 27, %length 0.88])
+Requesting sequence 149019103...	Extracting... 149019103-1 (e-value 5e-06, %id 31, %length 0.62)
+Requesting sequence 951352...	Extracting... 951352-1 (e-value 5e-06, %id 30, %length 0.67)
+Requesting sequence 293348105...	Extracting... 293348105-1 (e-value 6e-06, %id 31, %length 0.62)
+Requesting sequence 26333237...	Extracting...(26333237-1 ignored - alignment has sequence identity below minimum [e-value 6e-06, %id 25, %length 0.68])
+Requesting sequence 45382235...	Extracting... 45382235-1 (e-value 6e-06, %id 30, %length 0.67)
+Requesting sequence 156102146...	Extracting...(156102146-1 ignored - alignment has sequence identity below minimum [e-value 7e-06, %id 26, %length 0.72])
+Requesting sequence 49169814...	Extracting...(49169814-1 ignored - alignment has sequence identity below minimum [e-value 7e-06, %id 29, %length 0.75])
+Requesting sequence 254281300...	Extracting...(254281300-1 ignored - alignment has sequence identity below minimum [e-value 8e-06, %id 25, %length 0.68])
+Requesting sequence 118366453...	Extracting...(118366453-1 ignored - alignment has sequence identity below minimum [e-value 8e-06, %id 26, %length 0.95])
+Requesting sequence 118394893...	Extracting...(118394893-1 ignored - alignment has sequence identity below minimum [e-value 8e-06, %id 28, %length 0.88])
+Requesting sequence 119493594...	Extracting...(119493594-1 ignored - alignment has sequence identity below minimum [e-value 9e-06, %id 26, %length 0.64])
+Requesting sequence 45384344...	Extracting...(45384344-1 ignored - alignment has sequence identity below minimum [e-value 9e-06, %id 25, %length 0.73])
+Requesting sequence 4959550...	Extracting...(4959550-1 ignored - alignment has sequence identity below minimum [e-value 1e-05, %id 29, %length 0.73])
+Requesting sequence 8928140...	Extracting...(8928140-1 ignored - alignment has sequence identity below minimum [e-value 1e-05, %id 25, %length 0.93])
+Requesting sequence 66820959...	Extracting... 66820959-1 (e-value 1e-05, %id 31, %length 0.66)
+Requesting sequence 308803110...	Extracting...(308803110-1 ignored - alignment has sequence identity below minimum [e-value 1e-05, %id 28, %length 0.97])
+Requesting sequence 290491155...	Extracting...(290491155-1 ignored - alignment has sequence identity below minimum [e-value 1e-05, %id 25, %length 0.93])
+Requesting sequence 57108768...	Extracting...(57108768-1 ignored - alignment has sequence identity below minimum [e-value 1e-05, %id 29, %length 0.66])
+Requesting sequence 57208651...	Extracting... 57208651-1 (e-value 2e-05, %id 30, %length 0.62)
+Requesting sequence 825606...	Extracting... 825606-1 (e-value 2e-05, %id 30, %length 0.73)
+Requesting sequence 57094548...	Extracting... 57094548-1 (e-value 2e-05, %id 31, %length 0.62)
+Requesting sequence 624326...	Extracting...(624326-1 ignored - alignment has sequence identity below minimum [e-value 2e-05, %id 25, %length 0.76])
+Requesting sequence 268532700...	Extracting... 268532700-1 (e-value 2e-05, %id 30, %length 0.67)
+Requesting sequence 2738935...	Extracting...(2738935-1 ignored - alignment has sequence identity below minimum [e-value 2e-05, %id 29, %length 0.67])
+Requesting sequence 113195672...	Extracting...(113195672-1 ignored - alignment has sequence identity below minimum [e-value 2e-05, %id 28, %length 0.72])
+Requesting sequence 114607859...	Extracting...(114607859-1 ignored - alignment has sequence identity below minimum [e-value 3e-05, %id 28, %length 0.88])
+Requesting sequence 624316...	Extracting...(624316-1 ignored - alignment has sequence identity below minimum [e-value 3e-05, %id 25, %length 0.76])
+Requesting sequence 90423039...	Extracting...(90423039-1 ignored - alignment has sequence identity below minimum [e-value 3e-05, %id 26, %length 0.75])
+Requesting sequence 55626796...	Extracting... 55626796-1 (e-value 3e-05, %id 30, %length 0.62)
+Requesting sequence 147899575...	Extracting...(147899575-1 ignored - alignment has sequence identity below minimum [e-value 4e-05, %id 28, %length 0.65])
+Requesting sequence 118397790...	Extracting...(118397790-1 ignored - alignment has sequence identity below minimum [e-value 4e-05, %id 25, %length 0.89])
+Requesting sequence 1170111...	Extracting...(1170111-1 ignored - alignment has sequence identity below minimum [e-value 4e-05, %id 27, %length 0.62])
+Requesting sequence 624302...	Extracting...(624302-1 ignored - alignment has sequence identity below minimum [e-value 4e-05, %id 23, %length 0.65])
+Requesting sequence 32965121...	Extracting... 32965121-1 (e-value 4e-05, %id 30, %length 0.71)
+Requesting sequence 71679806...	Extracting...(71679806-1 ignored - alignment has sequence identity below minimum [e-value 5e-05, %id 29, %length 0.66])
+Requesting sequence 49169816...	Extracting...(49169816-1 ignored - alignment has sequence identity below minimum [e-value 5e-05, %id 28, %length 0.88])
+Requesting sequence 4378985...	Extracting...(4378985-1 ignored - region of homology less than 0.5 * query length [e-value 5e-05, %id 43, %length 0.26])
+Requesting sequence 33090154...	Extracting...(33090154-1 ignored - region of homology less than 0.5 * query length [e-value 5e-05, %id 41, %length 0.28])
+Requesting sequence 62859887...	Extracting...(62859887-1 ignored - alignment has sequence identity below minimum [e-value 5e-05, %id 29, %length 0.68])
+Requesting sequence 150376547...	Extracting...(150376547-1 ignored - alignment has sequence identity below minimum [e-value 6e-05, %id 26, %length 0.67])
+Requesting sequence 17537895...	Extracting...(17537895-1 ignored - alignment has sequence identity below minimum [e-value 6e-05, %id 27, %length 0.67])
+Requesting sequence 118361784...	Extracting...(118361784-1 ignored - region of homology less than 0.5 * query length [e-value 7e-05, %id 45, %length 0.24])
+Requesting sequence 4261638...	Extracting...(4261638-1 ignored - region of homology less than 0.5 * query length [e-value 7e-05, %id 41, %length 0.25])
+Requesting sequence 121699...	Extracting... 121699-1 (e-value 7e-05, %id 30, %length 0.64)
+Requesting sequence 2829287...	Extracting... 2829287-1 (e-value 8e-05, %id 30, %length 0.64)
+Requesting sequence 15966123...	Extracting... 15966123-1 (e-value 8e-05, %id 30, %length 0.59)
+Requesting sequence 119624803...	Extracting... 119624803-1 (e-value 9e-05, %id 30, %length 0.66)
+Requesting sequence 76097697...	Extracting... 76097697-1 (e-value 9e-05, %id 32, %length 0.65)
+Requesting sequence 66828451...	Extracting...(66828451-1 ignored - alignment has sequence identity below minimum [e-value 0.0001, %id 29, %length 0.69])
+Requesting sequence 32330663...	Extracting... 32330663-1 (e-value 0.0001, %id 32, %length 0.65)
+Requesting sequence 66730521...	Extracting... 66730521-1 (e-value 0.0001, %id 30, %length 0.62)
+Requesting sequence 118397792...	Extracting...(118397792-1 ignored - alignment has sequence identity below minimum [e-value 0.0001, %id 24, %length 0.89])
+Requesting sequence 268556120...	Extracting...(268556120-1 ignored - alignment has sequence identity below minimum [e-value 0.0001, %id 27, %length 0.74])
+Requesting sequence 114607871...	Extracting... 114607871-1 (e-value 0.0001, %id 33, %length 0.71)
+Requesting sequence 624318...	Extracting...(624318-1 ignored - alignment has sequence identity below minimum [e-value 0.0001, %id 24, %length 0.65])
+Requesting sequence 148236007...	Extracting... 148236007-1 (e-value 0.0001, %id 30, %length 0.67)
+Requesting sequence 109071523...	Extracting... 109071523-1 (e-value 0.0001, %id 30, %length 0.62)
+Requesting sequence 624310...	Extracting...(624310-1 ignored - alignment has sequence identity below minimum [e-value 0.0001, %id 25, %length 0.76])
+Requesting sequence 186470371...	Extracting...(186470371-1 ignored - alignment has sequence identity below minimum [e-value 0.0002, %id 26, %length 0.66])
+Requesting sequence 159831...	Extracting...(159831-1 ignored - alignment has sequence identity below minimum [e-value 0.0002, %id 24, %length 0.76])
+Requesting sequence 16265026...	Extracting...(16265026-1 ignored - alignment has sequence identity below minimum [e-value 0.0002, %id 27, %length 0.67])
+Requesting sequence 17537491...	Extracting...(17537491-1 ignored - alignment has sequence identity below minimum [e-value 0.0002, %id 28, %length 0.62])
+Requesting sequence 62751789...	Extracting... 62751789-1 (e-value 0.0002, %id 30, %length 0.62)
+Requesting sequence 913849...	Extracting...(913849-1 ignored - alignment has sequence identity below minimum [e-value 0.0002, %id 24, %length 0.76])
+Requesting sequence 1389744...	Extracting... 1389744-1 (e-value 0.0002, %id 30, %length 0.64)
+Requesting sequence 116734369...	Extracting...(116734369-1 ignored - alignment has sequence identity below minimum [e-value 0.0002, %id 23, %length 0.61])
+Requesting sequence 126330700...	Extracting...(126330700-1 ignored - alignment has sequence identity below minimum [e-value 0.0003, %id 25, %length 0.65])
+Requesting sequence 134280...	Extracting...(134280-1 ignored - alignment has sequence identity below minimum [e-value 0.0003, %id 27, %length 0.62])
+Requesting sequence 118397788...	Extracting...(118397788-1 ignored - alignment has sequence identity below minimum [e-value 0.0003, %id 24, %length 0.89])
+Requesting sequence 119624797...	Extracting... 119624797-1 (e-value 0.0003, %id 31, %length 0.62)
+Requesting sequence 116734367...	Extracting...(116734367-1 ignored - alignment has sequence identity below minimum [e-value 0.0003, %id 23, %length 0.61])
+Requesting sequence 145346125...	Extracting...(145346125-1 ignored - alignment has sequence identity below minimum [e-value 0.0003, %id 27, %length 0.96])
+Requesting sequence 2495111...	Extracting...(2495111-1 ignored - alignment has sequence identity below minimum [e-value 0.0003, %id 27, %length 0.62])
+Requesting sequence 226194...	Extracting...(226194-1 ignored - alignment has sequence identity below minimum [e-value 0.0004, %id 24, %length 0.76])
+Requesting sequence 118347332...	Extracting...(118347332-1 ignored - region of homology less than 0.5 * query length [e-value 0.0004, %id 43, %length 0.24])
+Requesting sequence 17565374...	Extracting...(17565374-1 ignored - alignment has sequence identity below minimum [e-value 0.0004, %id 22, %length 0.87])
+Requesting sequence 72011134...	Extracting...(72011134-1 ignored - alignment has sequence identity below minimum [e-value 0.0004, %id 28, %length 0.66])
+Requesting sequence 110277199...	Extracting...(110277199-1 ignored - alignment has sequence identity below minimum [e-value 0.0004, %id 28, %length 0.72])
+Requesting sequence 134275...	Extracting...(134275-1 ignored - alignment has sequence identity below minimum [e-value 0.0004, %id 24, %length 0.76])
+Requesting sequence 92429457...	Extracting...(92429457-1 ignored - region of homology less than 0.5 * query length [e-value 0.0005, %id 37, %length 0.26])
+Requesting sequence 86137379...	Extracting...(86137379-1 ignored - alignment has sequence identity below minimum [e-value 0.0005, %id 25, %length 0.6])
+Requesting sequence 15224582...	Extracting...(15224582-1 ignored - region of homology less than 0.5 * query length [e-value 0.0006, %id 29, %length 0.46])
+
+
+
+Removing short sequences...
+	--Renaming 1m9bA.input to 1m9bA.input_with_shortseqs--
+	command:  mv -f 1m9bA.input 1m9bA.input_with_shortseqs
+	command:  /home1/aw11/udEasyTrace/DetectandRemoveShortSeqs.pl 1m9bA.input_with_shortseqs 1m9bA.input 0.8 1m9bA > 1m9bA.shortseqs
+*********************************
+
+	output:
+114558278-1
+114581401-1
+118498708-1
+119570927-1
+119624803-1
+149025651-1
+149025668-1
+220679250-1
+50402815-1
+57208651-1
+73956368-1
+78557758-1
+12 sequences removed (4% of original)
+
+
+
+Generating the alignment...
+	command:  /home1/aw11/udEasyTrace/muscle -in 1m9bA.input -out 1m9bA.msf -msf -maxiters 2 -sv >/dev/null
+
+Removing fragments...
+	--Renaming 1m9bA.input to 1m9bA.input_with_fragments--
+	command:  mv -f 1m9bA.input 1m9bA.input_with_fragments
+	--Renaming 1m9bA.msf to 1m9bA.msf_with_fragments--
+	command:  mv -f 1m9bA.msf 1m9bA.msf_with_fragments
+	command:  /home1/aw11/udEasyTrace/DetectFragments.pl 1m9bA.msf_with_fragments 0.9 query_1m9bA > 1m9bA.fragments
+	command:  /home1/aw11/udEasyTrace/remove_seqs.pl 1m9bA.input_with_fragments 1m9bA.fragments 1m9bA.input
+	output:
+123122780-1
+114558282-1
+116266310-1
+148664628-1
+119595056-1
+149025662-1
+
+6 sequences removed (2% of original)
+
+
+Generating the alignment...
+	command:  /home1/aw11/udEasyTrace/muscle -in 1m9bA.input -out 1m9bA.msf -msf -maxiters 2 -sv >/dev/null
+
+Running Trace...
+
+*********************************
+
+	command:  /home1/aw11/udEasyTrace/wetc -p 1m9bA.msf  -x query_1m9bA query_1m9bA.pdb -c -o ET_1m9bA -m blosum62 
+
+reference sequence: query_1m9bA 
+reading msf from 1m9bA.msf 
+Gap will be counted as 21st amino acid.
+reading the pdb file ...
+ reading pdb successful 
+ 323 sequences of length 379 
+the sequence reading done.
+calculating pairwise sequence similarity
+pss done in 0.120000
+tree time is 0.280000
+trace time is 0.070000
+rvET trace time is 0.080000
+refseqlen = 216 
+Starting cluster report generation... 
+Cluster report  done. Time:       0.94 s.
+
+Run time is 0.940000
+
+	command:  /home1/aw11/udEasyTrace/makeetvx3.sh 1m9bA query_1m9bA.pdb ET_1m9bA.ranks ET_1m9bA.pss.nhx ET_1m9bA.cluster_report.summary > 1m9bA.etvx
+
+Reordering alignment to match the tree (as displayed by Forester)...
+	--Renaming 1m9bA.msf to 1m9bA.unordered.msf--
+	command:  mv -f 1m9bA.msf 1m9bA.unordered.msf
+	command:  /home1/aw11/udEasyTrace/reorder_alignment_to_tree3.pl ET_1m9bA.pss.nhx 1m9bA.unordered.msf 1m9bA.ordered.msf
+	--Renaming 1m9bA.ordered.msf to 1m9bA.msf--
+	command:  mv -f 1m9bA.ordered.msf 1m9bA.msf
+
+
+Done!  EasyTrace completed with 0 warnings.
+
+
